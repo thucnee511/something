@@ -5,6 +5,7 @@ tailwind.config = {
         brown: '#803407',
         white: '#fafafa',
         green: '#676128',
+        yellow: '#d8cfc8',
       },
       fontFamily: {
         'bhn': ['BHN TAN MEMORIES', 'serif'],
