@@ -24,7 +24,7 @@
         </a>
       </div>
       <div class="font-alata text-[2rem] block pt-4 text-yellow">
-        GIỚI THIỆU
+        CÂU HỎI
       </div>
       <div class="text-white text-xl font-muli">
         <a href="#" class="text-white">ENG</a>
@@ -33,9 +33,44 @@
       </div>
     </header>
     <section
-      class="w-screen overflow-x-hidden overflow-y-auto bg-black h-screen text-white py-[10rem] px-[10rem] font-alata"
+      class="w-screen overflow-x-hidden overflow-y-auto bg-black h-screen text-white py-[10rem] px-[10rem] font-alata flex flex-col justify-center items-center"
     >
-      
+      <div id="q1" class="flex flex-col justify-center items-center w-[70%]">
+        <div class="border-2 border-solid border-white px-[13rem] py-[3rem] rounded-[2rem] text-center mb-[4rem]">
+          <div class="font-bhn text-[3rem]">CÂU HỎI 1</div>
+          <div class="font-alata text-[3rem]">Chủ nghĩa Ấn tượng đặc trưng bởi</div>
+        </div>
+        <div class="w-full flex flex-wrap justify-center items-center">
+          <div id="a1-1" class="bg-white text-black flex justify-between items-center p-[1rem] w-[40%] rounded-[2rem] m-[1rem]">
+            <p class="w-[20%] p-[2rem] bg-yellow w-[6rem] h-[6rem] text-center text-[2rem] font-bhn rounded-full mr-[2rem]">A</p>
+            <p class="w-[80%] font-bhn">Sự nhấn mạnh vào hình khối và cấu trúc</p>
+          </div>
+          <div id="a1-2" class="bg-white text-black flex justify-between items-center p-[1rem] w-[40%] rounded-[2rem] m-[1rem]">
+            <p class="w-[20%] p-[2rem] bg-yellow w-[6rem] h-[6rem] text-center text-[2rem] font-bhn rounded-full mr-[2rem]">B</p>
+            <p class="w-[80%] font-bhn">Việc sử dụng màu sắc tinh khiết và ánh sáng tự nhiên</p>
+          </div>
+          <div id="a1-3" class="bg-white text-black flex justify-between items-center p-[1rem] w-[40%] rounded-[2rem] m-[1rem]">
+            <p class="w-[20%] p-[2rem] bg-yellow w-[6rem] h-[6rem] text-center text-[2rem] font-bhn rounded-full mr-[2rem]">C</p>
+            <p class="w-[80%] font-bhn">Cảm xúc mạnh mẽ và biểu hiện nội tâm</p>
+          </div>
+          <div id="a1-4" class="bg-white text-black flex justify-between items-center p-[1rem] w-[40%] rounded-[2rem] m-[1rem]">
+            <p class="w-[20%] p-[2rem] bg-yellow w-[6rem] h-[6rem] text-center text-[2rem] font-bhn rounded-full mr-[2rem]">D</p>
+            <p class="w-[80%] font-bhn">Sự mô tả chi tiết và chân thực về hiện thực</p>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.getElementById("q1").addEventListener("click", function() {
+          const a1 = document.getElementById("a1-1");
+          const a2 = document.getElementById("a1-2");
+          const a3 = document.getElementById("a1-3");
+          const a4 = document.getElementById("a1-4");
+          a1.classList.add("bg-brown");
+          a2.classList.add("bg-green");
+          a3.classList.add("bg-brown");
+          a4.classList.add("bg-brown");
+        });
+      </script>
     </section>
   </body>
 </html>
