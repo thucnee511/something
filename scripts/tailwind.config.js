@@ -6,6 +6,13 @@ tailwind.config = {
         white: '#fafafa',
         green: '#676128',
       },
+      fontFamily: {
+        'bhn': ['BHN TAN MEMORIES', 'serif'],
+        'alata': ['Alata', 'sans-serif'],
+        'paytone': ['Paytone One', 'sans-serif'],
+        'muli': ['Mulish', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+      },
     },
   },
 };
