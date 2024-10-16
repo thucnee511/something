@@ -10,7 +10,7 @@
   </head>
   <body>
     <header
-      class="fixed top-0 bottom-0 w-screen h-fit flex flex-row justify-between items-center p-6 px-[10rem] z-40"
+      class="fixed top-0 bottom-0 w-screen h-fit flex flex-row justify-between items-center p-6 px-[10rem] z-40 backdrop-blur"
     >
       <div>
         <a
@@ -33,96 +33,185 @@
       </div>
     </header>
     <section
-      class="w-screen overflow-x-hidden overflow-y-auto bg-black h-screen text-white py-[10rem] px-[10rem] font-alata"
+      class="w-screen overflow-x-hidden overflow-y-auto bg-black h-screen text-white dark:bg-white dark:text-black py-[10rem] px-[10rem] font-alata relative"
     >
-      <div class="flex justify-between items-center p-5">
-        <div class="w-[45%] text-[2rem] text-justify">
-          Không có thứ gọi là Nghệ thuật . Chỉ tồn tại các nghệ sĩ. Từ xa xưa,
-          có những người dùng đất màu và vẽ phác một con bò rừng lên vách đá
-          trong hang; ngày nay, họ tự mua màu vẽ cho mình, và thiết kế áp phích
-          cho những bảng biển quảng cáo; họ đã và đang làm đủ thứ việc khác. Sẽ
-          không có vấn đề gì nghiêm trọng nếu chúng ta gọi những hoạt động này
-          là nghệ thuật, miễn là ta nhớ rằng một từ như vậy mang ý nghĩa khác
-          nhau trong những thời điểm khác nhau tại những nơi khác nhau, và rằng
-          Nghệ thuật với chữ N viết hoa là không tồn tại. Nghệ thuật với chữ N
-          được viết hoa vốn mang nét nghĩa khác như thể một sự huyền bí và tôn
-          sùng. Bạn có thể làm bối rối một nghệ sĩ bằng cách tán thưởng những gì
-          anh ta vừa làm ra là tuyệt theo cách của riêng nó kèm theo bình luận
-          “Nhưng đó không phải là ‘Nghệ thuật’ đâu!”. Và nếu thấy ai đang thưởng
-          thức một bức tranh, hãy khiến người đó bất ngờ bằng cách tuyên bố rằng
-          điều anh thích không phải “Nghệ thuật” mà là một điều gì đó khác.
-        </div>
-        <div class="w-[50%] h-[60rem] relative">
-          <img
-            src="../../images/4.1.png"
-            alt=""
-            class="w-full h-full object-cover"
-          />
-          <div
-            class="w-fit p-2 bg-green text-normal italic absolute right-0 bottom-0 translate-y-[50%]"
+      <div
+        id="menu"
+        class="w-[50rem] h-screen bg-green p-[5rem] fixed top-0 left-0 z-50 translate-x-[-100%]"
+      >
+        <a
+          id="closeMenu"
+          href="#"
+          class="text-[10rem] block w-fit h-fit text-yellow rotate-45 mb-[5rem]"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
           >
-            1. Chân dung Nicholas - con trai Peter Paul Rubens
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </a>
+        <div class="w-full text-yellow font-alata">
+          <div class="text-center text-[2rem] text-bold mb-[3rem]">MỤC LỤC</div>
+          <a href="./section/intro.html">
+            <div
+              class="flex justify-between items-center text-[2rem] mb-[1.5rem]"
+            >
+              <p>Giới thiệu</p>
+              <p></p>
+            </div>
+          </a>
+          <a href="./section/intro.html">
+            <div
+              class="flex justify-between items-center text-[2rem] mb-[1.5rem]"
+            >
+              <p>Những khởi đầu kì lạ</p>
+              <p>I</p>
+            </div>
+          </a>
+          <a href="#">
+            <div
+              class="flex justify-between items-center text-[2rem] mb-[1.5rem]"
+            >
+              <p>Nghệ thuật để trường tồn</p>
+              <p>II</p>
+            </div>
+          </a>
+          <a href="./section/intro.html">
+            <div
+              class="flex justify-between items-center text-[2rem] mb-[1.5rem]"
+            >
+              <p>Sự tỉnh thức vĩ đại</p>
+              <p>III</p>
+            </div>
+          </a>
+          <a href="./section/intro.html">
+            <div
+              class="flex justify-between items-center text-[2rem] mb-[1.5rem]"
+            >
+              <p>Vương quốc của cái đẹp</p>
+              <p>IV</p>
+            </div>
+          </a>
+          <a href="./section/intro.html">
+            <div
+              class="flex justify-between items-center text-[2rem] mb-[1.5rem]"
+            >
+              <p>Những kẻ chinh phục thế giới</p>
+              <p>V</p>
+            </div>
+          </a>
+          <a href="./section/question.html">
+            <div
+              class="flex justify-between items-center text-[2rem] mb-[1.5rem]"
+            >
+              <p>Câu hỏi</p>
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="text-[2rem]" id="maincontent">
+        <div class="flex justify-between items-center p-5">
+          <div class="w-[45%] text-justify">
+            Không có thứ gọi là Nghệ thuật . Chỉ tồn tại các nghệ sĩ. Từ xa xưa,
+            có những người dùng đất màu và vẽ phác một con bò rừng lên vách đá
+            trong hang; ngày nay, họ tự mua màu vẽ cho mình, và thiết kế áp
+            phích cho những bảng biển quảng cáo; họ đã và đang làm đủ thứ việc
+            khác. Sẽ không có vấn đề gì nghiêm trọng nếu chúng ta gọi những hoạt
+            động này là nghệ thuật, miễn là ta nhớ rằng một từ như vậy mang ý
+            nghĩa khác nhau trong những thời điểm khác nhau tại những nơi khác
+            nhau, và rằng Nghệ thuật với chữ N viết hoa là không tồn tại. Nghệ
+            thuật với chữ N được viết hoa vốn mang nét nghĩa khác như thể một sự
+            huyền bí và tôn sùng. Bạn có thể làm bối rối một nghệ sĩ bằng cách
+            tán thưởng những gì anh ta vừa làm ra là tuyệt theo cách của riêng
+            nó kèm theo bình luận “Nhưng đó không phải là ‘Nghệ thuật’ đâu!”. Và
+            nếu thấy ai đang thưởng thức một bức tranh, hãy khiến người đó bất
+            ngờ bằng cách tuyên bố rằng điều anh thích không phải “Nghệ thuật”
+            mà là một điều gì đó khác.
+          </div>
+          <div class="w-[50%] h-[60rem] relative">
+            <img
+              src="../../images/4.1.png"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="w-fit p-2 bg-green text-normal italic absolute right-0 bottom-0 translate-y-[50%]"
+            >
+              1. Chân dung Nicholas - con trai Peter Paul Rubens
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center p-5">
+          <div class="text-justify">
+            Tất nhiên, tôi hiểu rằng việc thích một bức tượng hay tranh không có
+            gì sai. Một người thích một bức tranh phong cảnh vì nó gợi nhắc về
+            nơi anh ta từng sống, hoặc một bức chân dung vì trông nó giống một
+            người bạn cũ. Không có gì là sai trái cho chuyện này. Mỗi bức họa
+            đều gợi nhắc chúng ta đến 101 thứ mà ta thích và không thích. Chừng
+            nào trí nhớ còn giúp ích cho quá trình thưởng ngoạn thì không có gì
+            đáng lo ngại. Còn khi có những ký ức không liên quan tạo ra thành
+            kiến, khi mà chúng ta quay đi một cách bản năng trước một kiệt tác
+            mô phỏng cảnh núi Alps chỉ vì chúng ta ghét leo núi, thì hãy thử tìm
+            kiếm trong tâm trí một lý do cho sự ác cảm đã cản trở quá trình
+            thưởng thức vui thú mà đáng lẽ chúng ta thể có được. Có những nguyên
+            nhân sai lầm dẫn đến việc chúng ta ghét bỏ một tác phẩm nghệ thuật.
+          </div>
+        </div>
+        <div class="flex justify-between items-center p-5">
+          <div class="w-[45%] text-justify">
+            Đa số mọi người kiếm tìm trong tranh những gì họ cũng muốn thấy
+            ngoài đời thực. Đó là xu hướng tự nhiên của con người. Chúng ta đều
+            thích cái đẹp trong thiên nhiên và biết ơn những nghệ sĩ “bảo tồn”
+            được cái đẹp ấy qua tác phẩm của họ. Các nghệ sĩ thì chẳng bao giờ
+            cự tuyệt ai vì vấn đề thị hiếu. Khi họa sĩ người Flanders Rubens vẽ
+            cậu con trai bé nhỏ của mình (hình 1), ông hẳn thấy tự hào về vẻ đẹp
+            của cậu bé. Ông muốn cả công chúng cũng phải xuýt xoa trước sự đáng
+            yêu ấy. Tuy nhiên, tính thiên vị cho những đề tài đẹp đẽ và hấp dẫn
+            lại có thể là vật ngáng đường nêu vì nó mà ta né tránh những đề tài
+            ít hấp dẫn hơn. Họa sĩ người Đức Albrecht Dürer chắc chắn cũng đã vẽ
+            mẹ mình (hình 2) với cùng niềm say mê và tình yêu như Rubens dành
+            cho cậu con trai phúng phính của ông.
+          </div>
+          <div class="w-[50%] h-[60rem] relative">
+            <video
+              id="vid"
+              src="../../videos/4.3.mp4"
+              class="w-full h-full object-cover"
+              autoplay
+              muted
+            ></video>
+            <div
+              class="w-fit p-2 bg-green text-normal italic absolute right-0 bottom-0 translate-y-[50%]"
+            >
+              <a href="#" id="openDescription">Cleveland Museum of Arts</a>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center p-5">
+          <div class="text-justify">
+            Cách khắc họa hết sức chân thực của ông về sự già nua hao mòn có thể
+            khiến nhiều khán giả sửng sốt và quay đi – tuy vậy, nếu chúng ta
+            cưỡng lại được mối ác cảm ban đầu này thì có thể chúng ta sẽ nhận
+            được nhiều điều phong phú, bởi bức họa của Dürer tuyệt vời chính vì
+            tính trung thực dữ dội của nó. Thực tế, chúng ta sẽ sớm phát hiện ra
+            rằng vẻ đẹp của một bức tranh không nằm ở việc liệu đối tượng được
+            vẽ có đẹp hay không.
           </div>
         </div>
       </div>
-      <div class="flex justify-between items-center p-5">
-        <div class="text-[2rem] text-justify">
-          Tất nhiên, tôi hiểu rằng việc thích một bức tượng hay tranh không có
-          gì sai. Một người thích một bức tranh phong cảnh vì nó gợi nhắc về nơi
-          anh ta từng sống, hoặc một bức chân dung vì trông nó giống một người
-          bạn cũ. Không có gì là sai trái cho chuyện này. Mỗi bức họa đều gợi
-          nhắc chúng ta đến 101 thứ mà ta thích và không thích. Chừng nào trí
-          nhớ còn giúp ích cho quá trình thưởng ngoạn thì không có gì đáng lo
-          ngại. Còn khi có những ký ức không liên quan tạo ra thành kiến, khi mà
-          chúng ta quay đi một cách bản năng trước một kiệt tác mô phỏng cảnh
-          núi Alps chỉ vì chúng ta ghét leo núi, thì hãy thử tìm kiếm trong tâm
-          trí một lý do cho sự ác cảm đã cản trở quá trình thưởng thức vui thú
-          mà đáng lẽ chúng ta thể có được. Có những nguyên nhân sai lầm dẫn đến
-          việc chúng ta ghét bỏ một tác phẩm nghệ thuật.
-        </div>
-      </div>
-      <div class="flex justify-between items-center p-5">
-        <div class="w-[45%] text-[2rem] text-justify">
-          Đa số mọi người kiếm tìm trong tranh những gì họ cũng muốn thấy ngoài
-          đời thực. Đó là xu hướng tự nhiên của con người. Chúng ta đều thích
-          cái đẹp trong thiên nhiên và biết ơn những nghệ sĩ “bảo tồn” được cái
-          đẹp ấy qua tác phẩm của họ. Các nghệ sĩ thì chẳng bao giờ cự tuyệt ai
-          vì vấn đề thị hiếu. Khi họa sĩ người Flanders Rubens vẽ cậu con trai
-          bé nhỏ của mình (hình 1), ông hẳn thấy tự hào về vẻ đẹp của cậu bé.
-          Ông muốn cả công chúng cũng phải xuýt xoa trước sự đáng yêu ấy. Tuy
-          nhiên, tính thiên vị cho những đề tài đẹp đẽ và hấp dẫn lại có thể là
-          vật ngáng đường nêu vì nó mà ta né tránh những đề tài ít hấp dẫn hơn.
-          Họa sĩ người Đức Albrecht Dürer chắc chắn cũng đã vẽ mẹ mình (hình 2)
-          với cùng niềm say mê và tình yêu như Rubens dành cho cậu con trai
-          phúng phính của ông.
-        </div>
-        <div class="w-[50%] h-[60rem] relative">
-          <video
-            id="vid"
-            src="../../videos/4.3.mp4"
-            class="w-full h-full object-cover"
-            autoplay
-            muted
-          ></video>
-          <div
-            class="w-fit p-2 bg-green text-normal italic absolute right-0 bottom-0 translate-y-[50%]"
-          >
-            <a href="#" id="openDescription">Cleveland Museum of Arts</a>
-          </div>
-        </div>
-      </div>
-      <div class="flex justify-between items-center p-5">
-        <div class="text-[2rem] text-justify">
-          Cách khắc họa hết sức chân thực của ông về sự già nua hao mòn có thể
-          khiến nhiều khán giả sửng sốt và quay đi – tuy vậy, nếu chúng ta cưỡng
-          lại được mối ác cảm ban đầu này thì có thể chúng ta sẽ nhận được nhiều
-          điều phong phú, bởi bức họa của Dürer tuyệt vời chính vì tính trung
-          thực dữ dội của nó. Thực tế, chúng ta sẽ sớm phát hiện ra rằng vẻ đẹp
-          của một bức tranh không nằm ở việc liệu đối tượng được vẽ có đẹp hay
-          không.
-        </div>
-      </div>
-      <div id="description" class="w-[40%] h-screen bg-green opacity-80 p-[7rem] fixed top-0 right-0 translate-x-full">
+      <div
+        id="description"
+        class="w-[40%] h-screen bg-green opacity-80 p-[7rem] fixed top-0 right-0 translate-x-full"
+      >
         <a href="#" id="closeDescription" class="text-[2rem] italic font-muli">
           <p class="p-[2rem]">
             Bảo tàng nghệ thuật Cleveland (Cleveland Museum of Art) được thành
@@ -144,6 +233,102 @@
         </a>
       </div>
     </section>
+    <footer
+      class="w-fit h-fit p-[1rem] bg-yellow text-green dark:bg-green dark:text-yellow fixed bottom-0 left-[50%] translate-x-[-50%] rounded-t-[2rem] pb-[.5rem]"
+    >
+      <button id="themeButton" class="px-[3rem]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-palette-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+          />
+        </svg>
+      </button>
+      <button id="fontButton" class="px-[3rem]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-file-earmark-font-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5z"
+          />
+        </svg>
+      </button>
+      <button id="highlightButton" class="px-[3rem]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-highlighter"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z"
+          />
+        </svg>
+      </button>
+      <button id="increaseFontButton" class="px-[3rem]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-plus-circle"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+          />
+          <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+          />
+        </svg>
+      </button>
+      <button id="decreaseFontButton" class="px-[3rem]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-dash-circle"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+          />
+          <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+        </svg>
+      </button>
+      <button id="aspecratioButton" class="px-[3rem]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-aspect-ratio"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"
+          />
+          <path
+            d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"
+          />
+        </svg>
+      </button>
+    </footer>
     <script src="../../scripts/intro.js"></script>
   </body>
 </html>
