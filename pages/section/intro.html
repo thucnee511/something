@@ -12,15 +12,29 @@
     <header
       class="fixed top-0 bottom-0 w-screen h-fit flex flex-row justify-between items-center p-6 px-[10rem] z-40 backdrop-blur"
     >
-      <div>
+      <div class="flex justify-center items-center">
         <a
           id="openMenu"
           href="#"
-          class="flex flex-col justify-center items-center"
+          class="flex flex-col justify-center items-center mr-[4rem]"
         >
           <div class="w-[2.5rem] h-2 bg-yellow rounded-xl mb-2"></div>
           <div class="w-[3.7rem] h-2 bg-yellow rounded-xl mb-2"></div>
           <div class="w-[2.5rem] h-2 bg-yellow rounded-xl"></div>
+        </a>
+        <a href="#" id="openBookmark" class="text-yellow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-bookmark-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2"
+            />
+          </svg>
         </a>
       </div>
       <div class="font-alata text-[2rem] block pt-4 text-yellow">
@@ -116,6 +130,36 @@
               <p></p>
             </div>
           </a>
+        </div>
+      </div>
+      <div
+        id="bookmark"
+        class="w-[50rem] h-screen bg-green p-[5rem] fixed top-0 left-0 z-50 translate-x-[-100%]"
+      >
+        <a
+          id="closeBookmark"
+          href="#"
+          class="text-[10rem] block w-fit h-fit text-yellow rotate-45 mb-[5rem]"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </a>
+        <div class="w-full text-yellow font-alata" id="marked">
+          <div class="text-center text-[2rem] text-bold mb-[3rem]">
+            ĐÁNH DẤU
+          </div>
+          
         </div>
       </div>
       <div class="text-[2rem]" id="maincontent">
