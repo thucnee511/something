@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@font-face {
+  font-family: "BHN TAN MEMORIES";
+  src: url("../fonts/BHN\ TAN\ MEMORIES\ Regular.ttf") format("truetype"),
+    url("../fonts/BHN\ TAN\ MEMORIES\ Regular.otf") format("opentype");
+}
+
+:root {
+  --brown: "#803407";
+  --white: "#fafafa";
+  --green: "#676128";
+  --yellow: "#d8cfc8";
+  --black: "#080808";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+#main {
+  :-webkit-scrollbar {
+    display: none;
+  }
+}
