@@ -136,6 +136,9 @@
                 height: 100%;
                 object-fit: cover;
             }
+            audio{
+                display:none;
+            }
         }
 
         .banner__content{
@@ -179,4 +182,56 @@
             }
         }
     }
+}
+
+@media only screen and (max-width: 768px){
+    .sidebar{
+        display: block;
+        width: 100vw;
+    }
+
+    .content{
+        .content__header{
+            padding: 1rem;
+
+            #openMenu{
+                padding: 1rem;
+
+                .bar1,.bar3{
+                    width: 20px;
+                    height: 3px;
+                }
+                .bar2{
+                    width: 30px;
+                    height: 3px;
+                    margin: 1px 0;
+                }
+            }
+
+            .header__title{
+                font-size: 1.5rem;
+            }
+
+            .header__language{
+                font-size: 1rem;
+            }
+        }
+
+        .main{
+            .banner__content{
+                .banner__title{
+                    font-size: 3rem;
+                }
+
+                .banner__img{
+                    height: 100px;
+                }
+
+                .banner__link{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    
 }
