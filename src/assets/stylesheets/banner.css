@@ -1,0 +1,163 @@
+.sidebar{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 500px;
+    background-color: #7C6F22;
+    font-family: 'Mulish', sans-serif;
+    padding: 2.5rem;
+    color: #d8cfc0;
+    z-index: 999;
+
+    .close__button{
+        display: block;
+        cursor: pointer;
+        padding: 0;
+        background: none;
+        border: none;
+
+        .close__button--icon{
+            display: block;
+            width: 30px;
+            height: 30px;
+            color: #d8cfc0;
+            transform: rotate(45deg);
+        }
+    }
+
+    h1{
+        display: block;
+        padding: 2.5rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    ul{
+        list-style-type: none;
+        padding: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+
+        li{
+            padding: 1rem;
+
+            a{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: #d8cfc0;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.content{
+    .content__header{
+        width: 100vw;
+        height: fit-content;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5rem;
+
+        #openMenu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            cursor: pointer;
+            padding: 1rem;
+            font-size: 2rem;
+            font-family: 'Mulish', sans-serif;
+            background-color: transparent;
+            border: none;
+            
+            .bar1,.bar3{
+                width: 30px;
+                height: 5px;
+                background-color: #d8cfc0;
+                margin: 2px 0;
+                border-radius: .25rem;
+            }
+
+            .bar2{
+                width: 40px;
+                height: 5px;
+                background-color: #d8cfc0;
+                margin: 2px 0;
+                border-radius: .25rem;
+            }
+        }
+
+        .header__title{
+            font-size: 2.5rem;
+            font-family: 'Mulish', sans-serif;
+            color: #d8cfc0;
+        }
+
+        .header__language {
+            color: #fafafa;
+            font-size: 1.25rem;
+            font-family: "Mulish", sans-serif;
+        
+            a {
+              color: #fafafa;
+              text-decoration: none;
+            }
+          }
+    }
+
+    .main{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        .banner{
+            width: 100%;
+            height: 100%;
+            display: block;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .banner__content{
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left:0;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, .5);
+            flex-direction: column;
+
+            .banner__title{
+                font-size: 5rem;
+                font-family: "BHN TAN MEMORIES", sans-serif;
+                color: #d8cfc0;
+            }
+
+            .banner__link{
+                display: block;
+                cursor: pointer;
+                padding: 1rem;
+                font-size: 2rem;
+                font-family: "Mulish", sans-serif;
+                color: #d8cfc0;
+                text-decoration: none;
+                background-color: #7C6F22;
+            }
+        }
+    }
+}
