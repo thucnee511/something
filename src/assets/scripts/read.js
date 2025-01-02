@@ -30,7 +30,6 @@ themeButton.addEventListener("click", () => {
   currentTheme = currentTheme === dark ? light : dark;
   document.querySelector("#homeButton").style.color = currentTheme.color;
   document.querySelector("#openBookmark").style.color = currentTheme.color;
-  document.querySelector(".header__title").style.color = currentTheme.color;
   document.querySelector(".header__language").style.color = currentTheme.color;
   document.querySelector(".bar1").style.backgroundColor = currentTheme.color;
   document.querySelector(".bar2").style.backgroundColor = currentTheme.color;
