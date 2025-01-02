@@ -54,6 +54,79 @@
     }
 }
 
+.mark{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 500px;
+    color: #d8cfc0;
+    background-color: #7C6F22;
+    font-family: 'Mulish', sans-serif;
+    padding: 2.5rem;
+    color: #d8cfc0;
+    z-index: 999;
+
+    .close__button{
+        display: block;
+        cursor: pointer;
+        padding: 0;
+        background: none;
+        border: none;
+
+        .close__button--icon{
+            display: block;
+            width: 30px;
+            height: 30px;
+            color: #d8cfc0;
+            transform: rotate(45deg);
+        }
+    }
+
+    h1{
+        display: block;
+        padding: 2.5rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    ul{
+        list-style-type: none;
+        padding: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+
+        li{
+            padding: 1rem;
+
+            a{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                color: #d8cfc0;
+                text-decoration: none;
+                cursor: default;
+
+                p{
+                    width: 80%;
+                    padding: 0 1rem;
+                    font-size: 1.5rem;
+                }
+
+                .remove__button--icon{
+                    display: block;
+                    color: #d8cfc0;
+                    border: none;
+                    background-color: transparent;
+                    transform: rotate(45deg);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
 .content{
     .content__header{
         width: 100vw;
@@ -66,6 +139,23 @@
         justify-content: space-between;
         align-items: center;
         padding: 2.5rem;
+        box-shadow: inset 0px 13px 16px 1px rgba(0, 0, 0, 0.5);
+
+        .header__menu{
+            display: flex;
+            align-items: center;
+        }
+
+        #homeButton{
+            display: block;
+            cursor: pointer;
+            padding: 1rem;
+            font-size: 2rem;
+            font-family: 'Mulish', sans-serif;
+            background-color: transparent;
+            color: #d8cfc0;
+            border: none;
+        }
 
         #openMenu{
             display: flex;
@@ -96,6 +186,16 @@
             }
         }
 
+        #openBookmark{
+            cursor: pointer;
+            padding: 1rem;
+            font-size: 2rem;
+            font-family: 'Mulish', sans-serif;
+            background-color: transparent;
+            color: #d8cfc0;
+            border: none;
+        }
+
         .header__title{
             font-size: 2.5rem;
             font-family: 'Mulish', sans-serif;
@@ -118,6 +218,36 @@
         width: 100vw;
         height: 100vh;
         position: relative;
+        background-color: #121212;
+
+        .content__container{
+            width: 720px;
+            margin: 0 auto;
+            padding-top: 10rem;
+            
+            .content__title{
+                text-align: center;
+                font-size: 3rem;
+                font-family: 'Monsterrat', sans-serif;
+                color: #d8cfc0;
+            }
+
+            .content__paragraph{
+                padding-top: 2rem;
+                text-align: justify;
+                font-size: 2rem;
+                font-family: 'Mulish', sans-serif;
+                color: #d8cfc0;
+            }
+
+            .content__references{
+                text-align: right;
+                padding-top: 2rem;
+                font-size: 2rem;
+                font-family: 'Mulish', sans-serif;
+                color: #d8cfc0;
+            }
+        }
 
         .banner{
             width: 100%;
@@ -234,4 +364,32 @@
         }
     }
     
+}
+
+footer{
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    background-color: #d8cfc0;
+    color: #7C6F22;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding-bottom: .5rem;
+    display: flex;
+
+    button{
+        display: block;
+        cursor: pointer;
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-family: 'Mulish', sans-serif;
+        color: #7C6F22;
+        background-color: #d8cfc0;
+        border: none;
+        border-radius: .5rem;
+    }
 }

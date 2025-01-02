@@ -9,7 +9,6 @@
   align-items: center;
   width: 100vw;
   height: fit-content;
-  border-bottom: dotted 2px #fafafa;
 
   .header__logo {
     display: block;
@@ -91,30 +90,41 @@
       }
     }
 
-    .section__book {
-      padding-left: 10rem;
+    .section_ref {
+      display: flex;
+      flex-direction: column;
+      padding: 2.5rem;
+      width: 100%;
+      align-items: center;
       color: #fafafa;
-      text-transform: uppercase;
-      width: 80%;
 
-      .section__book--title {
-        font-family: "BHN TAN MEMORIES", sans-serif;
-        font-size: 15rem;
-      }
-
-      .section__book--author {
+      .section_ref__text{
+        display: flex;
+        justify-content: space-between;
         width: 100%;
-        font-size: 4rem;
+        padding: 1rem;
+
+        .left{
+          font-size: 2rem;
+          width: 48%;
+          text-align: right;
+          font-family: "Mulish", sans-serif;
+        }
+
+        .right{
+          font-size: 2rem;
+          width: 48%;
+          text-align: left;
+          font-family: "BHN TAN MEMORIES", sans-serif;
+        }
       }
     }
 
     .section__copyright {
-      position: absolute;
+      padding-top: 10rem;
       color: #fafafa;
       text-transform: uppercase;
-      top: 50%;
-      right: -7%;
-      transform: rotate(-270deg);
+      
     }
   }
 
@@ -145,7 +155,6 @@
   align-items: center;
   padding: 1.5rem;
   padding-bottom: 2.5rem;
-  border-top: dotted 2px #fafafa;
 
   .footer__button {
     display: flex;
