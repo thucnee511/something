@@ -1,9 +1,17 @@
 const themeButton = document.querySelector("#themeButton");
 const fontButton = document.querySelector("#fontButton");
-const hightlightButton = document.querySelector("#hightlightButton");
+const highlightButton = document.querySelector("#highlightButton");
 const increaseFontButton = document.querySelector("#increaseFontButton");
 const decreaseFontButton = document.querySelector("#decreaseFontButton");
 const aspecratioButton = document.querySelector("#aspecratioButton");
+
+highlightButton.addEventListener("click", () => {
+  const selection = document.getSelection();
+  const range = selection.getRangeAt(0);
+  const span = document.createElement("span");
+  span.style.backgroundColor = "#7C6F22";
+  range.surroundContents(span);  
+});
 
 const dark = {
   background: "#121212",
