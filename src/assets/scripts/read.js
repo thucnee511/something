@@ -215,9 +215,11 @@ aspecratioButton.addEventListener("click", () => {
   if (!isFullScreen) {
     openFullscreen(content);
     isFullScreen = true;
+    document.querySelector("header").style.display = "none";
   } else {
     closeFullscreen();
     isFullScreen = false;
+    document.querySelector("header").style.display = "flex";
   }
 });
 
