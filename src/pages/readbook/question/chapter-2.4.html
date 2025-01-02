@@ -240,16 +240,16 @@
                   <input type="radio" name="question3" value="1" />
                   Matthias Grünewald
                 </label>
-                <label class="checkbox_ans">
-                  <input type="checkbox" name="question3" value="2" />
+                <label class="radio_ans">
+                  <input type="radio" name="question3" value="2" />
                   Gérard David
                 </label>
-                <label class="checkbox_ans">
-                  <input type="checkbox" name="question3" value="3" />
+                <label class="radio_ans">
+                  <input type="radio" name="question3" value="3" />
                   Albrecht Dürer
                 </label>
-                <label class="checkbox_ans">
-                  <input type="checkbox" name="question3" value="4" />
+                <label class="radio_ans">
+                  <input type="radio" name="question3" value="4" />
                   Jérôme Bosch
                 </label>
               </div>
@@ -380,6 +380,15 @@
         } catch (err) {
           alert("Vui lòng trả lời hết tất cả câu hỏi!");
         }
+      });
+
+      const goNext = document.getElementById("next");
+      const goPrevious = document.getElementById("previous");
+      goNext.addEventListener("click", () => {
+        window.location.href = "../banner/chapter-3.html";
+      });
+      goPrevious.addEventListener("click", () => {
+        window.location.href = "../content/chapter-2.4.html";
       });
     </script>
   </body>

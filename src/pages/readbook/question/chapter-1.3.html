@@ -377,6 +377,15 @@
           alert("Vui lòng trả lời hết tất cả câu hỏi!");
         }
       });
+
+      const goNext = document.getElementById("next");
+      const goPrevious = document.getElementById("previous");
+      goNext.addEventListener("click", () => {
+        window.location.href = "../banner/chapter-2.html";
+      });
+      goPrevious.addEventListener("click", () => {
+        window.location.href = "../content/chapter-1.3.html";
+      });
     </script>
   </body>
 </html>

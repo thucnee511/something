@@ -249,16 +249,16 @@
                   <input type="radio" name="question3" value="1" />
                   Robert Campin
                 </label>
-                <label class="checkbox_ans">
-                  <input type="checkbox" name="question3" value="2" />
+                <label class="radio_ans">
+                  <input type="radio" name="question3" value="2" />
                   Jan Van Eyck
                 </label>
-                <label class="checkbox_ans">
-                  <input type="checkbox" name="question3" value="3" />
+                <label class="radio_ans">
+                  <input type="radio" name="question3" value="3" />
                   Rogier Van der Weyden
                 </label>
-                <label class="checkbox_ans">
-                  <input type="checkbox" name="question3" value="4" />
+                <label class="radio_ans">
+                  <input type="radio" name="question3" value="4" />
                   Petrus Christus
                 </label>
               </div>
@@ -381,6 +381,15 @@
         } catch (err) {
           alert("Vui lòng trả lời hết tất cả câu hỏi!");
         }
+      });
+
+      const goNext = document.getElementById("next");
+      const goPrevious = document.getElementById("previous");
+      goNext.addEventListener("click", () => {
+        window.location.href = "../banner/chapter-2.4.html";
+      });
+      goPrevious.addEventListener("click", () => {
+        window.location.href = "../content/chapter-2.3.html";
       });
     </script>
   </body>

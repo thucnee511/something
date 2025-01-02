@@ -352,5 +352,15 @@
     </section>
     <script src="../../../assets/scripts/bookMenu.js"></script>
     <script src="../../../assets/scripts/read.js"></script>
+    <script>
+      const goNext = document.getElementById("next");
+      const goPrevious = document.getElementById("previous");
+      goNext.addEventListener("click", () => {
+        window.location.href = "../banner/chapter-2.1.html";
+      });
+      goPrevious.addEventListener("click", () => {
+        window.location.href = "../banner/chapter-2.html";
+      });
+    </script>
   </body>
 </html>

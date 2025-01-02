@@ -391,6 +391,15 @@
           alert("Vui lòng trả lời hết tất cả câu hỏi!");
         }
       });
+
+      const goNext = document.getElementById("next");
+      const goPrevious = document.getElementById("previous");
+      goNext.addEventListener("click", () => {
+        window.location.href = "../banner/chapter-3.3.html";
+      });
+      goPrevious.addEventListener("click", () => {
+        window.location.href = "../content/chapter-3.2.html";
+      });
     </script>
   </body>
 </html>
