@@ -1,9 +1,20 @@
 document.addEventListener("wheel", function (event) {
-  if (event.deltaY !== 0) {
-    if (!isOpen) {
-      document.querySelector(".main").scrollLeft += event.deltaY;
-    } else {
-      document.getElementById("sub").scrollLeft += event.deltaY;
+  const windowWidth = window.innerWidth;
+  if (windowWidth > 500) {
+    if (event.deltaY !== 0) {
+      if (!isOpen) {
+        document.querySelector(".main").scrollLeft += event.deltaY;
+      } else {
+        document.getElementById("sub").scrollLeft += event.deltaY;
+      }
+    }
+  } else {
+    if (event.deltaY !== 0) {
+      if (!isOpen) {
+        document.querySelector(".main").scrollTop += event.deltaY;
+      } else {
+        document.getElementById("sub").scrollTop += event.deltaY;
+      }
     }
   }
 });
