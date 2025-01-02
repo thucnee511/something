@@ -9,144 +9,818 @@
   </head>
   <body>
     <section class="sidebar" id="sidebar">
-        <button class="close__button" id="closeMenu">
-          <div class="close__button--icon">
+      <button class="close__button" id="closeMenu">
+        <div class="close__button--icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </div>
+      </button>
+      <h1>MỤC LỤC</h1>
+      <ul>
+        <li><a href="../banner/foreword.html">Lời mở đầu</a></li>
+        <li>
+          <a href="../banner/chapter-1.html">
+            <p>Nền hội hoạ trước Giotto</p>
+            <p>I</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.1.html">
+            <p>Những bức hoạ đầu tiên</p>
+            <p>I.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.2.html">
+            <p>Thời Thượng cổ</p>
+            <p>I.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.3.html">
+            <p>Nghệ thuật cổ Cơ Đốc và sơ Trung cổ</p>
+            <p>I.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.html">
+            <p>Nền hội hoạ Gothic</p>
+            <p>II</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.1.html">
+            <p>Nghệ thuật Gothic nguyên thuỷ</p>
+            <p>II.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.2.html">
+            <p>Phong cách Gothic quốc tế</p>
+            <p>II.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.3.html">
+            <p>Những cuộc cách tân ở Bắc Âu</p>
+            <p>II.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.4.html">
+            <p>Hội hoạ cuối thời kì Gothic</p>
+            <p>II.4</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.html">
+            <p>Thời kì phục hưng ở Ý</p>
+            <p>III</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.1.html">
+            <p>Thời kì phục hưng sơ khai</p>
+            <p>III.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.2.html">
+            <p>Thời kì phục hưng ở Venice</p>
+            <p>III.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.3.html">
+            <p>Cao trào phục hưng</p>
+            <p>III.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.4.html">
+            <p>Thời kì kiểu cách ở Ý</p>
+            <p>III.4</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="mark" id="mark">
+      <button class="close__button" id="closeBookmark">
+        <div class="close__button--icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </div>
+      </button>
+      <h1>DANH SÁCH ĐÁNH DẤU</h1>
+      <ul>
+        <li>
+          <a href="#">
+            <p>Đánh dấu 1</p>
+            <button class="remove__button--icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-plus-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                />
+              </svg>
+            </button>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="content">
+      <header class="content__header">
+        <div class="header__menu">
+          <button id="openMenu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+          <button href="#" id="openBookmark" class="text-yellow" data-id="1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
               height="30"
               fill="currentColor"
-              class="bi bi-plus-lg"
+              class="bi bi-bookmark-fill"
               viewBox="0 0 16 16"
             >
               <path
-                fill-rule="evenodd"
-                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2"
               />
             </svg>
-          </div>
-        </button>
-        <h1>MỤC LỤC</h1>
-        <ul>
-          <li><a href="./foreword.html">Lời mở đầu</a></li>
-          <li>
-            <a href="./chapter-1.html">
-              <p>Nền hội hoạ trước Giotto</p>
-              <p>I</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.1.html">
-              <p>Những bức hoạ đầu tiên</p>
-              <p>I.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.2.html">
-              <p>Thời Thượng cổ</p>
-              <p>I.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.3.html">
-              <p>Nghệ thuật cổ Cơ Đốc và sơ Trung cổ</p>
-              <p>I.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.html">
-              <p>Nền hội hoạ Gothic</p>
-              <p>II</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.1.html">
-              <p>Nghệ thuật Gothic nguyên thuỷ</p>
-              <p>II.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.2.html">
-              <p>Phong cách Gothic quốc tế</p>
-              <p>II.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.3.html">
-              <p>Những cuộc cách tân ở Bắc Âu</p>
-              <p>II.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.4.html">
-              <p>Hội hoạ cuối thời kì Gothic</p>
-              <p>II.4</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.html">
-              <p>Thời kì phục hưng ở Ý</p>
-              <p>III</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.1.html">
-              <p>Thời kì phục hưng sơ khai</p>
-              <p>III.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.2.html">
-              <p>Thời kì phục hưng ở Venice</p>
-              <p>III.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.3.html">
-              <p>Cao trào phục hưng</p>
-              <p>III.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.4.html">
-              <p>Thời kì kiểu cách ở Ý</p>
-              <p>III.4</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-    <section class="content">
-      <header class="content__header">
-        <button id="openMenu">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </button>
-        <div class="header__title">
-            II - Nền hội hoạ Gothic
+          </button>
+          <a href="../../home.html" id="homeButton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 50 50"
+              fill="currentColor"
+            >
+              <path
+                d="M 24.962891 1.0546875 A 1.0001 1.0001 0 0 0 24.384766 1.2636719 L 1.3847656 19.210938 A 1.0005659 1.0005659 0 0 0 2.6152344 20.789062 L 4 19.708984 L 4 46 A 1.0001 1.0001 0 0 0 5 47 L 18.832031 47 A 1.0001 1.0001 0 0 0 19.158203 47 L 30.832031 47 A 1.0001 1.0001 0 0 0 31.158203 47 L 45 47 A 1.0001 1.0001 0 0 0 46 46 L 46 19.708984 L 47.384766 20.789062 A 1.0005657 1.0005657 0 1 0 48.615234 19.210938 L 41 13.269531 L 41 6 L 35 6 L 35 8.5859375 L 25.615234 1.2636719 A 1.0001 1.0001 0 0 0 24.962891 1.0546875 z M 25 3.3222656 L 44 18.148438 L 44 45 L 32 45 L 32 26 L 18 26 L 18 45 L 6 45 L 6 18.148438 L 25 3.3222656 z M 37 8 L 39 8 L 39 11.708984 L 37 10.146484 L 37 8 z M 20 28 L 30 28 L 30 45 L 20 45 L 20 28 z"
+              ></path>
+            </svg>
+          </a>
         </div>
-        <div class="header__language">
-            <a href="#" class="header__language--link">VIE</a>
-            /
-            <a href="#" class="header__language--link">ENG</a>
-          </div>
+
+        <div class="header__title">NGHỆ THUẬT GOTHIC NGUYÊN THUỶ</div>
+        <div class="header__language">Soeur Wendy Beckett</div>
       </header>
       <main class="main">
-        <div class="banner">
-          <video controls autoplay muted loop>
-            <source src="../../../assets/videos/6.mp4" type="video/mp4">
-          </video>
-          <audio controls autoplay loop>
-            <source src="../../../assets/audios/2.1.mp3" type="audio/mp3">
-          </audio>
+        <div class="content__container">
+          <h1 class="content__title">NGHỆ THUẬT GOTHIC NGUYÊN THUỶ</h1>
+          <p class="content__paragraph">
+            Chủ đề của nghệ thuật gothic nguyên thủy trước hết là các chủ đề tôn
+            giáo, và các bức tranh thường được dùng như là những "quyển sách
+            hình" vì lợi ích của những người mù chữ. Những tác phẩm khác, như
+            thánh tượng, phải gây cảm hứng cho sự nhập định và cầu nguyện. Những
+            tác phẩm của các danh sư theo phong cách gothic phản ánh sự thuần
+            khiết cao cả và sức mạnh tinh thần, lưu truyền truyền thống Byzance.
+            Tuy nhiên, người ta cũng nhận thấy có nhiều sự cải cách, trong đó có
+            tính hiện thực của nhân vật, phép phối cảnh và sự thanh tao đáng kể
+            của đường nét.
+          </p>
+          <div class="content__paragraph">
+            Nghệ thuật gothic chủ yếu chiếm trọn ba thế kỷ cuối cùng của Thời
+            Trung Cổ. Thời Trung cổ kéo dài từ lúc thành Roma sụp đổ vào năm 410
+            cho tới dầu Thời Phục hưng, thế kỷ 15.
+          </div>
+          <div class="content__paragraph">
+            Từ "gothic" chỉ một thời kỳ hơn là một tập hợp những đặc tính của
+            một phong cách, một kiếu thức. Mặc dầu kiểu thức gothic có những
+            thành phần có ý nghĩa nhất định, nhưng để hiểu dễ dàng hơn nhiều
+            cách biểu thị của kiểu thức này, chúng ta cần nhắc lại rằng thời kỳ
+            này bao trùm hơn hai trăm năm và ảnh hưởng của nó lan tràn khắp châu
+            Âu. Ngay từ "gothic", mà người Ý là những người sử dụng đầu tiên,
+            lúc ấy chỉ với ý xấu, thứ nghệ thuật sinh ra vào cuối thời Phục
+            hưng, nhưng lại bắt chước nghệ thuật thời Trung cổ. Từ này có quan
+            hệ với một "qua khứ dã man", và nhất là với người Goths, một dân tộc
+            thuộc giống Đức cổ ở miền Bắc đã tràn vào nước Ý và cướp phá thành
+            Rome vào năm 410. Sau đó từ này mất dần nghĩa xấu và được dùng mô tả
+            một cách khái quát kiểu thức kiến trúc và phong cách hội họa mới,
+            xuất hiện sau thời kỳ La Mã và trước thời Phục hưng.
+          </div>
+          <div class="content__subtitle">
+            ẢNH HƯỞNG CỦA NỀN KIẾN TRÚC GOTHIC
+          </div>
+          <div class="content__paragraph">
+            Nhà thờ gothic khác với kiến trúc La Mã ở chỗ theo một phương thức
+            xây dựng mới, là vòm đường sống. Nhờ cấu trúc gia cường, các trường
+            mang không cần dày như trước. Ngoài ra, các vòng chống dã đỡ một
+            phần sức nặng ở phía ngoài có hiệu quả đến nổi cột và tường trong
+            không còn quá cần thiết để đỡ sức nặng của mái vòm. Nhờ vậy người ta
+            có thể xây tường mỏng hơn và thay thế một phần tường bằng cửa sổ
+            kính màu lớn để có nhiều ánh sáng.
+          </div>
+          <div class="content__paragraph">
+            Người ta thường tin rằng vòm gãy là một sự cách tân của kiến trúc
+            gothic. Thật ra, vòm gãy đã có trong nghệ thuật La Mã, nhưng nó được
+            sử dụng trong các nhà thờ kiểu gothic nhiều hơn. Với dạng ít cứng
+            rắn hơn vòm bán nguyệt, nó cho phép kiến trúc sư nhiều tự do lựa
+            chọn hơn. Những nhà thờ đầu tiên theo kiểu gothic đã được xây dựng ở
+            nước Pháp, nhất là ở Paris (Notre Dame), ở Saint Denis, và ở
+            Chartres. Một kiểu thức ít công phu hơn nhưng cũng tương tự đã xuất
+            hiện ở Anh, trong số đó có ở Salisbury. Những nhà thờ kiểu gothic
+            cũng được xây dựng ở Đức. Ý, Tây Ban Nha và Hà Lan.
+          </div>
+          <div class="content__paragraph">
+            Ở khắp nơi, sự sử dụng kính màu, mới mẻ và rực rỡ, cũng cho ánh sáng
+            nhuốm màu tràn ngập nhà thờ, tạo ra một không khí huyền ảo. Trong
+            khi trước kia cần tới một cấu trúc bằng đá để giữ vững khung kính
+            thì bây giờ một mạng lưới dây chỉ cũng đủ. Nghệ thuật cửa kính màu
+            đạt tới cực đỉnh ở nhà thờ Sainte Chapelle Paris: các cửa kính chiếm
+            ba phần tư diện tích mặt tường.
+          </div>
+          <div class="content__subtitle">HỘI HỌA GOTHIC RA ĐỜI</div>
+          <div class="content__paragraph">
+            Hội họa gothic ra đời ở Ý. Ở thế kỷ 13, hội họa Ý còn bị nghệ thuật
+            Byzance thống trị, mà ở Ý người ta gọi là “phong cách Hy Lạp”. Hội
+            họa Ý đồng hóa ảnh hưởng gothic chậm hơn kiến trúc và điêu khắc
+            nhiều. Chỉ vào cuối thế kỷ 13, phong cách gothic mới xuất hiện trong
+            những bức tranh tuyệt mỹ ở Florence và Sienne. Hội họa gothic nguyên
+            thủy tỏ ra hiện thực hơn nghệ thuật La Mã và Byzance. Nó tỏ ra say
+            mê rõ rệt phép phối cảnh và ảo ảnh của không gian thực, và sự thanh
+            tao tinh tế. Sự lý thú của câu chuyện bằng tranh và sự biểu hiện giá
+            trị tinh thần mạnh mẽ hơn, đôi khi cuồng nhiệt cũng là những đặc
+            trưng của nghệ thuật gothic nguyên thủy.
+          </div>
+          <div class="content__subtitle">ĐOẠN TUYỆT VỚI NGHỆ THUẬT BYZANCE</div>
+          <div class="content__paragraph">
+            Cuối thế kỷ 13, họa sĩ lỗi lạc nhất Florence là Cenni di Pepi tức
+            Cimabue (khoảng 1240-1302). Theo truyền thuyết, ông là thầy của
+            Giotto. Có quá nhiều tác phẩm được gán cho ông đến nỗi cuối cùng tên
+            ông tượng trưng cho một nhóm nghệ sĩ có cùng một khuynh hướng hơn là
+            một cá nhân riêng rẽ, mặc dầu chắc chắn, ông là người có thật.
+          </div>
+          <div class="content__paragraph">
+            Vẫn còn gắn bó với mỹ học Byzance, nên Cimabue dã đưa vào đó một yếu
+            tố cảm xúc và sống động, và mở đường cho chủ nghĩa hiện thực, chủ
+            nghĩa này sẽ đóng vai trò nền tảng trong nền hội họa phương Tây. F
+          </div>
+          <div class="content__img">
+            <img src="../../../assets/images/pic_04.jpg" alt="" />
+            <div class="content__img--caption">
+              Cimabue trong không gian làm việc mang phong cách mỹ học Byzantine
+              (Ảnh Chat GPT)
+            </div>
+          </div>
+          <div class="content__paragraph">
+            Chúng ta biết rằng năm 1272 Cimabue đã tới Roma lúc đó là nơi tự hội
+            những họa sĩ bích họa của nước Ý. Những họa sĩ này, cũng như những
+            nghệ sĩ tranh khảm đá ở thời đó, đang tìm kiếm một tính cách hiện
+            thực hơn, và có lẽ Cimabue cũng theo hướng đó. Họa sĩ được nổi tiếng
+            là do bức tranh Maestà, thoạt tiên được vẽ trong nhà thờ Santa
+            Trinita ở Florence. Từ Maestà nghĩa là "uy nghiêm" và chỉ một bức
+            tranh vẽ Đức Mẹ bồng Chúa Hài Đồng ngồi trên ngai, xung quanh có các
+            thiên thần. Bức Maestà của Cimabue có vẻ dịu dàng và tao nhã hơn,
+            chứa đựng cảm xúc hơn những vẻ mặt cứng nhắc và cách điệu của các
+            thánh tượng Byzance. Vẻ mềm mại của nếp áo cũng như không gian "mở"
+            theo ba chiều do chiếc ngai tạo ra, là những yếu tố cấu tạo hoàn
+            toàn mới và lý thú.
+          </div>
+          <div class="content__subtitle">
+            DUCCIO DI BUONINSEGNA VÀ TRƯỜNG PHÁI SIENNE
+          </div>
+          <div class="content__paragraph">
+            Mặc dầu tạo được những cách tân, tác phẩm của Cimabue cho thấy còn
+            thiếu bóng nổi nếu so với tác phẩm của Duccio di Buoninsegna (giữa
+            thế kỷ 13 - 1318). Hai người gần như là sống cùng thời.
+          </div>
+          <div class="content__paragraph">
+            Trong thế kỷ 13 và 14, thành phố Sienne cạnh tranh với Florence bằng
+            sự huy hoàng của nghệ thuật. Nếu Giotto đã làm một cuộc cách mạng
+            trong nghệ thuật Florence, thì Duccio và các môn đồ cũng có một ảnh
+            hưởng lớn, dầu ở quy mô nhỏ hơn. Tác phẩm của Duccio có một sức mạnh
+            lớn lao. Thành công lớn của ông là bức Maestà do thánh đường Sienne
+            đặt vẽ và được rước vào đó một cách tưng bừng vào năm 1311. Một nhà
+            ký sự của thời đó thuật lại: "Dân chúng Sienne mang bức tranh tới
+            nhà từ ngày 9 tháng 6 bằng một đám rước hoan hỉ và thành kính (...)
+            và ngày đó các hiệu buôn đóng cửa vì sùng đạo." Thật không thể tưởng
+            tượng được là tác phẩm lớn đó lại có thể bị cắt ra từng mảnh và đem
+            bán có lẽ (ít nhất cũng là từng phần) vì đơn giản là người ta không
+            thích nó nữa. Nhiều viện bảo tàng trên thế giới đã được lợi vì
+            nghịch thuyết văn hóa đó và ngày nay còn giữ được những mảnh của bức
+            tranh.
+          </div>
+          <div class="content__paragraph">
+            Bức Maestà của Duccio được vẽ trên hai mặt, mặt trước có ba phần.
+            Tấm chính thể hiện Đức Mẹ và Chúa Hài Đồng ngồi trên ngai, xung
+            quanh là các thiên thần và các thánh. Phần dưới bức tranh là một dải
+            hình ảnh Chúa Hài Đồng lúc còn thơ ấu. Một dải phía trên cho thấy
+            các giai đoạn cuối cùng trong cuộc đời Đức Mẹ. Hai dải đó ngày nay
+            đã mất. Mặt sau trình bày những hoạt động trong cuộc đời của Chúa
+            Jesus (chúng ta biết là có hai mươi sáu cảnh).
+          </div>
+          <div class="content__paragraph">
+            Các Bà thánh thiện ở Phần mộ là một phần những cảnh ở mặt sau của
+            bức Maestà vẫn còn ở Sienne. Ở thời điểm của giai đoạn Khổ nhục đó
+            của Chúa, ba bà Marie đứng trước ngôi mộ trống rỗng của Chúa, thiên
+            thần Gabriel báo trước cho họ sự Phục sinh. Tính khắc khổ mạnh mẽ và
+            sự thanh tao của tác phẩm này làm chúng ta ý thức trọn vẹn về sức
+            mạnh của thông điệp của Chúa.
+          </div>
+          <div class="content__paragraph">
+            Cũng như Giotto, Duccio lưu tâm tới mối quan hệ sâu sắc thiêng liêng
+            giữa các phụ nữ đó trong thời điểm Khổ nhục của Chúa hơn là đặc điểm
+            của mỗi người. Các hình diện có vẻ dao động bằng cách xích lại gần
+            nhau mà không chạm vào nhau. Họa sĩ phát hiện cho chúng ta một thế
+            giới tinh thần mà bản thân họa sĩ cũng như mọi người đều không hiểu
+            được. Sự chừng mực tuyệt hảo và tính dửng dưng trong tác phẩm của
+            Duccio là một số phẩm chất đặc trưng nhất. Dường như ông vẽ với một
+            sự dửng dưng nhất định, trong khi Giotto đồng nhất hoàn toàn với câu
+            chuyện, mà ông kể lại và tạo ra một hoạt cảnh thật mà ông lôi cuốn
+            chúng ta vào.
+          </div>
+          <div class="content__paragraph">
+            Nếu bố cục quy ước khá cứng nhắc của tấm tranh mặt trước bức Maesta
+            mang dấu ấn của truyền thống Byzance thì ảnh hưởng của Bắc Âu (mà
+            Duccio tiếp xúc qua tượng điêu khắc của Nicola và Giovanni Pisano)
+            cũng có thể nhận thấy ở hình dạng thanh tao và mềm mại của các hình
+            diện, một trong những thí dụ đầu tiên về sự tinh tế là đặc trưng của
+            toàn bộ nền hội họa gothic.
+          </div>
+          <div class="content__paragraph">
+            Duccio đã mang lại một sự thay đổi thật sự về phong cách và ảnh
+            hưởng của ông còn lớn hơn ảnh hưởng của Cimabue nữa. Nhân vật của
+            ông có một thể khối nhất định và quần áo của họ rũ xuống thành những
+            đường mềm mại, uốn lượn để cho ta đoán được hình thể bên dưới. Những
+            tấm tranh mặt sau của bức Maestà, dù khuôn khổ nhỏ, được vẽ với một
+            ý thức về sự cân đối và sự giản dị táo bạo mà thời đó còn chưa biết.
+            Bức Maestà là bức tranh còn lại duy nhất của Duccio.
+          </div>
+          <div class="content__subtitle">THIÊN TRIỆU CỦA CÁC TÔNG ĐỒ</div>
+          <div class="content__paragraph">
+            Một tấm tranh nhỏ khác ở phần dưới mặt sau của tác phẩm của Duccio
+            di Buoninsegna có tên Thiên triệu của các tông đồ Pierre và Andre là
+            một hình ảnh trần trụi và trong sáng, có một sức mạnh phi thường.
+          </div>
+          <div class="content__paragraph">
+            Duccio chia thế giới ra làm ba: bầu trời rộng lớn ứng vàng, biển
+            xanh cũng ửng vàng và bờ đá ở một bên bức tranh, nơi Chúa đứng. Ở
+            giữa, hai anh em André và Pierre kinh ngạc về phép lạ đã làm xáo
+            trộn cuộc sống thường ngày của họ. Họ đã quăng lưới suốt đêm mà
+            không được con cá nào. Jésus kêu họ quăng lưới ở một bên thuyền, và
+            họ đã nghe lời người lạ mặt. Lưới kéo lên đầy cá nhưng hai người có
+            vẻ không chú ý tới chút nào. Pierre quay lại, dò hỏi, còn André bất
+            động và hoài nghi, dường như đang nhìn chúng ta.
+          </div>
+          <div class="content__paragraph">
+            Quần áo của hai tông đồ màu sáng. Jésus mặc màu đỏ sẫm, tượng trưng
+            sự khổ nhục, và màu tía để chỉ thân phận đế vương; đường viền chỉ
+            vàng ấn định đường nét.
+          </div>
+          <div class="content__paragraph">
+            Vầng hào quang, tượng trưng thần thánh, có nguồn gốc từ Ba Tư cổ và
+            chỉ tia sáng mặt trời và quyền lực.
+          </div>
+          <div class="content__paragraph">
+            Vầng hào quang xuất hiện lần đầu tiên trong nghệ thuật cơ đốc giáo
+            vào thế kỷ thứ 4. Ở đây, vầng hào quang của Chúa được khắc thẳng vào
+            gỗ, đặc trưng của hội họa gothic trên bản gỗ, cũng thường được khảm
+            đá quý. Ánh sáng gặp những đường gãy tạo cho nó ánh chói cho phép
+            phân biệt vầng hào quang với bầu trời.
+          </div>
+          <div class="content__paragraph">
+            Duccio mô tả Chúa dưới hình thức một vị đế vương uy quyền. Bàn tay
+            của Người đưa về phía hai ngư phủ, những lời kêu gọi của Người là
+            một mệnh lệnh nhân từ hơn là một lời mời gọi bình thường. Chúa đi
+            chân đất, đứng trên tầng đá, biểu tượng của Giáo hội và nói với
+            Pierre, cái tên mà Người đã chọn.
+          </div>
+          <div class="content__paragraph">
+            Trên gương mặt của André người ta thấy sự phát hiện lòng tin. Trong
+            khi Pierre (mà theo Kinh Thánh là người hoạt động hơn) quay về phía
+            Chúa, André có vẻ lắng nghe tiếng gọi của một người vô hình. Ông nấm
+            dây kéo lưới đầy cá, động tác ngừng lại như tê liệt, và trên mặt dần
+            dần hiện lên ý thức về điều vừa xảy ra cho mình.
+          </div>
+          <div class="content__paragraph">
+            Lưới kéo lên đầy cá, biểu tượng của sứ mạng tông đồ phong phú và kết
+            quả. Dù được kéo căng, lưới cũng phủ chồng một lớp màu xanh trong
+            suốt trên nền ửng vàng. Duccio ít chú ý tới không gian ba chiều, và
+            chiếc thuyền là một thứ lục bằng gỗ, lướt trên nước, chỉ vừa đủ lớn
+            cho hai người đánh cá.
+          </div>
+          <div class="content__subtitle">
+            GIOTTO, ÔNG TỔ CỦA HỘI HỌA TÂY PHƯƠNG
+          </div>
+          <div class="content__paragraph">
+            Nếu Duccio đã phát minh lại nghệ thuật Byzance thì người đồng song
+            người Florence của ông Giotto di Bondone (khoảng 1267-1337) đã biến
+            đổi nền nghệ thuật đó. Sự tìm tòi có tính cách mạng về hình thể và
+            cách mô tả không gian nặng tính "kiến trúc" và hiện thực của ông và
+            các hình diện của ông cân đối với công trình xây dựng và phong cảnh
+            xung quanh), đã cho lịch sử hội họa một sự tiến bộ lớn. Tác phẩm của
+            Giotto đã được mọi người coi là tột đỉnh của hội họa gothic. Lần đầu
+            tiên, hội họa châu Âu có được cái mà sử gia Michael Levey gọi là
+            "một cá tính sáng tạo lớn". Thế mà, kỷ nguyên của "cá tính" là kỷ
+            nguyên Phục hưng, nên, đối với các chuyên gia, Giotto đã đánh dấu
+            bước đầu của kỷ nguyên đó không phải là không có lý do. Ông là gương
+            mặt vô song của thời đại mình và đi trước cả thời đại mình. Tuy
+            nhiên, ông đã sinh ra trong thời kỳ mà chúng ta gọi là "gothic", với
+            không khí của sự thanh lịch tinh thần và lòng yêu chuộng màu sắc
+            tươi mát và vẻ đẹp của thế giới hữu hình. Các họa sĩ gothic tạo thể
+            khối và sự vững chắc cho một thế giới mà các họa sĩ tiền bối chủ yếu
+            chỉ nhìn thấy dưới dạng đường nét hai chiều và thiếu tính vật chất
+            mặc dầu có tính động về mặt tinh thần.
+          </div>
+          <div class="content__subtitle">
+            NHỮNG NGHỆ SĨ ĐÃ ẢNH HƯỞNG TỚI GIOTTO
+          </div>
+          <div class="content__paragraph">
+            Chúng ta biết rằng Giotto đã tới Rôma vào năm 1300 để vẽ một bức
+            bích họa trong cung Latran. Ông đã thu thái được những cách tân của
+            Pietro Cavallini, nghệ sĩ La Mã mà các bức bích họa và tranh khảm đá
+            cho thấy một khuynh hướng tự nhiên đáng kinh ngạc. Bích họa của
+            Giotto vượt trên ảnh hưởng La Mã mà không mượn phong cách Byzance
+            như ở Cimabue. Đối với Giotto chỉ có thế giới thực tại là đáng kể.
+            Năng lực nhận thức bẩm sinh của ông về hình thể tự nhiên, sự tìm tòi
+            của ông về thể khối điêu khắc, và tính nhân bản tự nhiên và sâu sắc
+            của ông, đã biến đổi trào lưu hội họa.
+          </div>
+          <div class="content__paragraph">
+            Những nhà điêu khắc người Ý thời đó, như Nicola Pisano (khoảng
+            1220-1283) và con trai là Giovanni (khoảng 1250-sau 1314) đã tranh
+            đua với Giotto bằng thiên tài cách tân của mình và đã có ảnh hưởng
+            lớn tới cách nhìn thế giới của ông.
+          </div>
+          <div class="content__paragraph">
+            Nicola Pisano đã sống ở Toscane, quê hương của Giotto, vào năm 1250.
+            Đặc biệt quan tâm nghiên cứu tượng điêu khắc cổ, ông đã gây một ảnh
+            hưởng quyết định, chủ yếu lấy cảm hứng từ nghệ thuật gothic Bắc Âu.
+            Triều đình Anjou thiết lập ở Naples khoảng năm 1260 đã tạo định
+            hướng mới cho nền điêu khắc Ý. Nghệ thuật của Pisano cho thấy một
+            tinh thần hiện thực và một kỹ thuật phỏng hình có sức biểu hiện
+            thuyết phục, khác xa với sự nặng nề và gần như cách điệu của nền
+            điêu khắc Toscane thời đó.
+          </div>
+          <div class="content__paragraph">
+            Khi so sánh tranh của Giotto với tượng của Pisano, ta có thể giải
+            thích phần nào quá trình tiến hóa của họa sĩ về mặt hội họa: sức
+            mạnh về mặt tạo hình của hình thể và không gian ba chiều đã xâm
+            chiếm bức tranh thiếu hình nổi trước kia, và hội họa trở nên sống
+            động, từ nay dứt bỏ được truyền thống cứng nhấc và cách điệu của
+            Byzance.
+          </div>
+          <div class="content__paragraph">
+            Tranh trên bản gỗ của Giotto có khuôn khổ nhỏ hơn bích họa, nhưng
+            họa sĩ có vẻ vượt lên khỏi chi tiết đó. Một bức tranh nhỏ như Đức Mẹ
+            và Chúa Hài Đồng (hình 5) chứa đầy cảm xúc mạnh mẽ khiến cho bức
+            tranh có vẻ lớn hơn. Đức Mẹ nhìn chúng ta một cách dịu dàng và Chúa
+            Hài Đồng ngồi trên tay bà như ngồi trên ngai. Vẻ cao quý của các
+            nhân vật chẳng những không xa cách chúng ta mà còn khuyến khích
+            chúng ta tiếp cận một cách tôn kính.
+          </div>
+          <div class="content__img">
+            <img src="../../../assets/images/pic_05.jpg" alt="" />
+            <div class="content__img--caption">
+              Giotto di Bondone, Đức Mẹ và Chúa Hài Đồng (Ognissanti Madonna)
+              325 cm × 204 cm (128 in × 80 in) Uffizi Gallery, Florence
+            </div>
+          </div>
+          <div class="content__subtitle">BÍCH HỌA CỦA GIOTTO</div>
+          <div class="content__paragraph">
+            Nhà nguyện Scrovegni (Arena) ở Padoue được trang hoàng bằng những
+            tác phẩm đẹp nhất của Giotto còn giữ được, một hệ bích họa vẽ khoảng
+            những năm 1305-1806, trình bày những cảnh trong giai đoạn khổ nhục
+            và trong cuộc đời của Đức Mẹ Đồng trinh.
+          </div>
+          <div class="content__paragraph">
+            Một trong các bích họa, Than khóc trước di hài của Chúa trên bức
+            tường phía bắc nhà nguyện, là kết cục của cầu chuyện mà chúng ta đã
+            thấy phần đầu trong bức Thiên triệu của các tông đồ Pierre và Andre
+            của Duccio. Giotto đã đem tất cả tài năng của mình để minh họa một
+            trong những giai đoạn nổi bật nhất trong cuộc đời của Chúa Jesus.
+            Tương phản cái vẻ uy nghi xa cách, nặng nề của Đức bà trong tranh
+            của Duccio và Cimabue, Giotto đặt tình tiết ngang tầm với chúng ta,
+            với sự chân thực đáng xúc động, và ông biến cải sự kiện thành một
+            cảnh bi thương rất mực. Ở tiền cảnh, mỗi nhân vật đều được nhận rõ
+            và có một hành động cụ thể. Đức Mẹ Maria được vẽ gần giống đàn ông
+            (Giotto luôn luôn vẽ bà cao lớn và đường bệ), ôm siết thân mình Chúa
+            đã chết, thảm thiết, đau buồn nhưng cố kiềm chế. Marie Madeleine
+            cung kính nâng chân Chúa, mắt trào lệ, nhìn dấu đinh. Thánh Jean
+            giang hai tay, dáng điệu tuyệt vọng trước một thực tế kinh khủng.
+            Hai người đàn ông lớn tuổi hơn, Nicodème và Joseph ở Arimathia, đứng
+            hơi xa một chút, phân vân và suy sụp, trong khi những người đàn bà
+            đã an ủi Đức Mẹ ở dưới chân thánh giá giờ đang than khóc và cố kìm
+            nước mắt. Mặt đất vấy máu không phải là chỗ của các thiên thần nên
+            họ bay lượn trên không, biểu lộ sự đau buồn.
+          </div>
+          <div class="content__paragraph">
+            Ở hậu cảnh, một cái cây đơn độc và trơ trụi trên sườn đồi khô cằn
+            gợi ý cái chết thảm khốc, nhưng một ánh sáng kín đáo lan tỏa trong
+            bầu trời xanh thẩm. Giotto và người đương thời biết rằng Chúa sẽ
+            sống lại, dầu các thiên thần hết sức đau đớn có vẻ không biết điều
+            đó. Sự trang nghiêm và cảm xúc bị kìm chế của Đức Mẹ có lẽ do tính
+            chắc chắn của lời tiên tri này. Nhờ có sức mạnh của lòng tin của
+            Giotto mà chúng ta có ý nghĩ này. Ngay màu sắc và hình thể trong
+            sáng, đậm đà, đầy đặn và trực tiếp cũng khẳng định tính chắc chắn
+            thần bí kia, bất chấp sự tuyệt vọng trông thấy trước mắt. Sáu thế kỷ
+            sau, Henri Matisse khẳng định rằng không cần biết Phúc âm cũng hiểu
+            được tranh của Giotto bởi vì bản thân nó có chân lý riêng.
+          </div>
+          <div class="content__subtitle">SỰ PHẢN BỘI CỦA JUDAS</div>
+          <div class="content__paragraph">
+            Giotto tỏ ra là một tài năng tuyệt vời khi vẽ một cảnh thương tâm
+            xung quanh một hình ảnh trung tâm. Bức Cái hôn của Judas, một bích
+            họa khác của nhà nguyện Scrovegni, gợi ý chuyển động; mỗi nhân vật
+            đều hành động, theo hay chống lại Chúa. Đuốc cháy sáng, khí giới
+            quay mòng. Nhưng trung tâm của cảnh náo động thì im lìm bi thảm,
+            Jesus nhìn sâu vào mắt giả dối của Judas, môn đồ của mình, mà tính
+            xảo quyệt đối đầu với lòng yêu thương đau đớn của tôn sư. Kẻ phản
+            bội và người mà hắn phản bội họp thành yếu tố trung tâm, cô đọng và
+            gần như sờ thấy được, chiếc áo choàng của Judas với màu vàng tượng
+            trig, bao bọc Chúa Jesus như thể nuốt chửng lấy người. Trong toàn bộ
+            tác phẩm của Giotto các gương mặt có tầm quan trọng lớn nhất, đó là
+            chiếc gương phản ánh thảm kịch của con người.
+          </div>
+          <div class="content__paragraph">
+            Trong hệ các bích họa, cảm xúc cũng được thể hiện bằng nét mặt,
+            hướng mắt nhìn, ngôn ngữ đơn sơ của cơ thể. Đối với Giotto, nghệ
+            thuật luôn luôn là một sự cộng thông.
+          </div>
+          <div class="content__rs">CÁI HÔN CỦA JUDAS</div>
+          <div class="content__rp">
+            Judas là tông đồ đã phản bội Jesus, đã nạp ông cho nhà cầm quyền và
+            không chịu đựng nồi hậu quả hành động của mình, đã treo cổ tự từ.
+            Tác phẩm của Giotto mô td lúc Judas chi điểm Jésus cho các tu sĩ và
+            quân lính bằng cách ôm hôn ông.
+          </div>
+          <div class="content__rs">THỜI GIAN NGƯNG ĐỌNG</div>
+          <div class="content__rp">
+            Chúa Jesus và Judas họp thành hình ảnh bất động duy nhất trong cảnh
+            náo động này, Chúa là hình ảnh của sự kiên cường, dũng cảm. Vầng
+            trán thanh thân và cái nhìn đăm đăm của Người tương phản với nét mặt
+            nhăn nhó và bối rối của Judas. Giotto đã làm cho thời gian ngưng
+            đọng và, trong cái nhìn dò hỏi của Jésus, ta thấy Người đã biết sự
+            phản bội của Judas và tình thương của người đối với kẻ phản bội.
+          </div>
+          <div class="content__rs">PIERRE BẢO VỆ JÉSUS</div>
+          <div class="content__rp">
+            Bố cục toàn thể xoay quanh hai gương mặt của Chúa Jesus và Judas.
+            Gươm giáo và đuốc tua tủa ra mọi phía bắt đầu từ hai nhân vật trung
+            tâm gần như tạo thành một vầng hào quang, hoặc trút về phía họ. Vị
+            tu sĩ đang cử động bên phải cân bằng với-tông đồ Pierre ở bên trái;
+            trong con phẫn nộ, Pierre đã cắt đứt vành tai của một người lính.
+          </div>
+          <div class="content__rs">JÉSUS BỊ BẮT</div>
+          <div class="content__rp">
+            Giotto cho đám quân lính dày dực và trật tự cái sức mạnh của một con
+            sóng thần không ngăn cản nổi. Họ tiến tới phía Chúa trong một chuyển
+            động đồng loạt. Số đông quân lính không thể nhận ra được, và chỉ
+            gươm giáo nghiêng nghiêng của họ cho thấy hàng ngũ của họ.
+          </div>
+          <div class="content__s">SỰ HỢP NHẤT CÁC NHÂN TỐ GOTHIC</div>
+          <div class="content__p">
+            Nghệ sĩ thể hiện được tinh hoa của nghệ thuật gothic là Simone
+            Martini (khoảng 1285-1344). Trong tất cả họa sĩ Sienne, ông là người
+            duy nhất có thể sánh được với thầy mình, Duccio di Buoninsegna. Vì
+            Martini là kẻ thừa kế trực tiếp về mặt nghệ thuật của Duccio, nghệ
+            thuật của ông vắn còn chịu ảnh hưởng phần nào xa xôi của truyền
+            thống Byzance ở tính chất tinh thần. Ông cũng phản ánh những điểm
+            cách tân của Giotto trong lĩnh vực không gian, cũng như bút pháp
+            gothic thanh tao của Bắc Âu (mà nước Pháp là đại diện) lúc đó khá
+            phổ biến ở Sienne. Robert le Sage công tước Anjou và là Quận Vương
+            Napoli, đã cho vời Martini tới triều của mình vào năm 1817. Martini
+            chịu ảnh hưởng nhiều của nghệ thuật ở triều đình Anjou trong ló sự
+            thanh lịch và tinh tế đặc trưng phân biệt truyền thống gothic Pháp
+            với các tác phẩm Ý sơ khai. Ảnh hưởng của phong cách gothic phương
+            Bắc đối với nghệ thuật Ý cũng thấy rõ trong tác phẩm của Martini,
+            ông quan tâm tới hình thể thanh tao và đường nét mềm mại, kiểu cách
+            và cử chỉ tế nhị của nhân vật, và tính "kiểu cách" và kỹ thuật hoàn
+            thiện đã vĩnh viễn xác định ông là họa sĩ thuộc thể loại "gothic Ý"
+            và là đại diện thứ nhất của phong cách gothic quốc tế.
+          </div>
+          <div class="content__s">VẺ THANH TAO GOTHIC</div>
+          <div class="content__p">
+            Những nhân vật của Simone Martini có vẻ thanh tao khác thường. Thiên
+            thần hay người phàm tục với một vẻ đẹp tình tứ, họ xuất hiện một
+            cách uy nghiêm, vừa thuộc về thế giới chúng ta vừa thuộc về thiên
+            giới. Từ người họ toát ra một thứ ma lực siêu nhiên. Tác phẩm của
+            Martini cho thấy một sự táo bạo về màu sắc và sức mạnh của niềm tin,
+            những thứ tạo cho ông một địa vị trong làng hội họa và buộc chúng ta
+            bước vào thế giới tưởng tượng lạ lùng của ông. Những bức tranh của
+            thời kỳ thuần thục còn đậm đà cảm xúc hơn nữa. Cảm giác bi thảm của
+            ông được thể hiện tuyệt diệu trong bức Truyền tin ở Florence, trong
+            đó ta thấy Đức Mẹ Marie lùi lại như thể kinh hoàng vì nhiệm vụ nặng
+            nề: mang Con của Chúa.
+          </div>
+          <div class="content__p">
+            Nhưng, ngay cả trong lúc rối trí đó, Marie cũng quên mình với cái vẻ
+            thanh tao uyển chuyển chỉ riêng nghệ thuật gothic mới có và rất đặc
+            trưng của nghệ thuật Martini. Bà mặc áo màu xanh, biểu tượng của
+            Trời, Thiên thần là một phổ màu rực rỡ gồm các sắc độ vàng óng.
+            Người xem chứng kiến một cuộc hội ngộ thiêng liêng trong đó Trời và
+            Đất chỉ còn là một. Ánh mắt của bà Marie và của Thiên thần như có
+            nam châm, mỗi ánh mắt mang một thông điệp bí ẩn.
+          </div>
+          <div class="content__p">
+            Bức Thiên Thần Truyền tin, một cách diễn tả khác của cùng một biến
+            cố, có lẽ là thành phần của một bộ tranh hai tấm mà tấm bên phải,
+            ngày nay không còn nữa, thể hiện Đức Mẹ Đồng trinh mà Thiên thần
+            hướng tới, tay cầm một nhánh ô liu (...).F
+          </div>
+          <div class="content__s">XUNG ĐỘT GIA ĐÌNH</div>
+          <div class="content__p">
+            Vẻ thanh tao và quần áo sang trọng của các nhân vật của Simone
+            Martini không có gì phù phiếm, và ông biết cách kết hợp những thứ đó
+            với một cảm giác tương phản gần như sờ mó được. Bức Christ từ Đền
+            thờ trở về là sự gợi ý khác thường về sự xung đột giữa các thế hệ.
+            Chúa Hài Đồng và Mẹ bất đồng ý kiến với nhau vì không hiểu nhau, và
+            thánh Joseph cố gắng làm cho họ hiểu nhau nhưng vỏ hiệu. Đó là thời
+            điểm quyết định của tuổi thiếu niên trong đó ta nhận thấy rằng ngay
+            những người được ta yêu thương và tin cậy cũng không thể hiểu ta.
+            Mỗi người chúng ta đều cô đơn, mỗi người chúng ta là duy nhất, ngay
+            trong những gia đình gắn bó nhất.
+          </div>
+          <div class="content__s">ANH EM LORENZETTI</div>
+          <div class="content__p">
+            Nếu Simone Martini là môn đồ xứng đáng của Duccio di Buoninsegna thì
+            hai anh em Lorenzetti mang dấu ấn của Giotto, mặc dầu hai người là
+            dân Sienne. Vẻ thanh tao tế nhị trong bút pháp của họ phản ánh ảnh
+            hưởng phối hợp của Giotto và Duccio. Tranh của họ cho thấy có sự
+            tương tự với sức sống tâm lý của Giotto nhiều hơn vẻ thanh lịch kiểu
+            cách và kỹ thuật tinh vi của Simone Martini, người đồng thời nổi
+            tiếng của họ. Hai anh em đã biến mất thình lình vào năm 1348, có thể
+            là nạn nhân của trận dịch đen lan tràn vào châu Âu thời kỳ đó.
+          </div>
+          <div class="content__p">
+            Bức tranh nhỏ Thánh Savin và bạo chúa là hình ảnh của cả sự quá đáng
+            lẫn sự mềm mỏng tột bậc. Savin, một trong bốn thánh bảo hộ của Sienne,
+            từ chối lệnh của Tổng trấn La Mã ở Toscane, phải làm lễ hiến sinh cho
+            một thần tượng kỳ dị. Vị thánh mặc áo trắng, bình thản và kiên quyết
+            khiến chúng ta chú ý, trong khi tổng trấn ngồi quay lưng lại người
+            xem. Chúng ta nhận biết được cảm giác về không gian, ở cả nghĩa đen
+            lẫn nghĩa bóng.
+          </div>
+          <div class="content__p">
+            Trong bức Lòng nhân từ của thánh Nicola de Bari, Ambrogio, người em,
+            kết hợp sự trầm trọng và sự thanh thoát của hình ảnh. Vị thánh ném vào
+            phòng của ba cô con gái một nhà quý tộc sa sút ba bọc vàng cần để làm
+            hồi môn cho ba thiếu nữ. Người cha nhìn, kinh ngạc, còn cô gái lớn,
+            cũng ngạc nhiên ngóc đầu lên nhìn.
+          </div>
+          <div class="content__s">PHONG CẢNH TOÀN CẢNH</div>
+          <div class="content__p">
+            Một trong những tác phẩm của Ambrogio và là một trong những tranh
+            phong cảnh đầu tiên là bích họa nhan đề Phúng dụ về nền lương chính và
+            tác dụng của nó ở thành thị và thôn quê do Tòa thị chính Sienne yêu
+            cầu. Ý niệm của Lorenzetti là ý niệm về một thế giới được sắp đặt hoàn
+            hảo và ông đã vẽ với một tinh thần tự nhiên tuyệt vời và sự quan sát
+            sắc bén; hình mẫu là thành phố Sienne. Bức bích họa đi đôi với bức này
+            thể hiện hậu quả của sự hà chính, cũng ở Tòa thị chính, chẳng may đã
+            bị hư hỏng nặng nề.
+          </div>
+          <div class="content__p">
+            Loại hình ảnh toàn cảnh này ngày nay rất quen thuộc với chúng ta, ít
+            ra cũng dưới dạng ảnh chụp, đến nỗi chúng ta quên tính cách tiền phong
+            phi thường của tác phẩm này, là nỗ lực đầu tiên để trình bày một địa
+            điểm thật trong một khung cảnh thật với những dân cư thật, trong khi
+            vẫn cho để tài chủ yếu phàm tục này cái vẻ quý báu thường được dành
+            cho hội họa tôn giáo. Đó không phải là Bethléem cũng không phải
+            Nazareth, mà là thành phố Sienne với các đường phố, cửa tiệm, và những
+            cánh đồng manh mún. Ta còn có thể nhận ra những phần khác nhau của
+            thành phố hiện nay.
+          </div>
+          <div class="content__p">
+            Bức tranh toàn cảnh này được vẽ theo nhiều điểm nhìn khác nhau và các
+            công trình xây dựng không cân xứng với các nhân vật. Toàn bộ bức tranh
+            mô tả một thời đại hòa bình, thương mại, công nghiệp và canh nông phát
+            đạt, dân chúng có nhiều việc làm và hoàn toàn vui sướng.
+          </div>
         </div>
-        <div class="banner__content">
-          <h1 class="banner__title">NGHỆ THUẬT GOTHIC NGUYÊN THUỶ</h1>
-          <div class="banner__img"><img src="../../../assets/videos/waveform-audio-unscreen.gif" alt=""></div>
-          <a class="banner__link" href="#">Đọc</a>
-        </div>
+
+        
       </main>
+      <footer>
+        <button id="themeButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-palette-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+            />
+          </svg>
+        </button>
+        <button id="fontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-file-earmark-font-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5z"
+            />
+          </svg>
+        </button>
+        <button id="highlightButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-highlighter"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z"
+            />
+          </svg>
+        </button>
+        <button id="increaseFontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-plus-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+            />
+          </svg>
+        </button>
+        <button id="decreaseFontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-dash-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"
+            />
+          </svg>
+        </button>
+        <button id="aspecratioButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-aspect-ratio"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"
+            />
+            <path
+              d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"
+            />
+          </svg>
+        </button>
+      </footer>
     </section>
     <script src="../../../assets/scripts/bookMenu.js"></script>
+    <script src="../../../assets/scripts/read.js"></script>
   </body>
 </html>

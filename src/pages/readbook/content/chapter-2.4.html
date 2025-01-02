@@ -9,144 +9,537 @@
   </head>
   <body>
     <section class="sidebar" id="sidebar">
-        <button class="close__button" id="closeMenu">
-          <div class="close__button--icon">
+      <button class="close__button" id="closeMenu">
+        <div class="close__button--icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </div>
+      </button>
+      <h1>MỤC LỤC</h1>
+      <ul>
+        <li><a href="../banner/foreword.html">Lời mở đầu</a></li>
+        <li>
+          <a href="../banner/chapter-1.html">
+            <p>Nền hội hoạ trước Giotto</p>
+            <p>I</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.1.html">
+            <p>Những bức hoạ đầu tiên</p>
+            <p>I.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.2.html">
+            <p>Thời Thượng cổ</p>
+            <p>I.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.3.html">
+            <p>Nghệ thuật cổ Cơ Đốc và sơ Trung cổ</p>
+            <p>I.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.html">
+            <p>Nền hội hoạ Gothic</p>
+            <p>II</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.1.html">
+            <p>Nghệ thuật Gothic nguyên thuỷ</p>
+            <p>II.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.2.html">
+            <p>Phong cách Gothic quốc tế</p>
+            <p>II.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.3.html">
+            <p>Những cuộc cách tân ở Bắc Âu</p>
+            <p>II.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.4.html">
+            <p>Hội hoạ cuối thời kì Gothic</p>
+            <p>II.4</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.html">
+            <p>Thời kì phục hưng ở Ý</p>
+            <p>III</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.1.html">
+            <p>Thời kì phục hưng sơ khai</p>
+            <p>III.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.2.html">
+            <p>Thời kì phục hưng ở Venice</p>
+            <p>III.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.3.html">
+            <p>Cao trào phục hưng</p>
+            <p>III.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.4.html">
+            <p>Thời kì kiểu cách ở Ý</p>
+            <p>III.4</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="mark" id="mark">
+      <button class="close__button" id="closeBookmark">
+        <div class="close__button--icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </div>
+      </button>
+      <h1>DANH SÁCH ĐÁNH DẤU</h1>
+      <ul>
+        <li>
+          <a href="#">
+            <p>Đánh dấu 1</p>
+            <button class="remove__button--icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-plus-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                />
+              </svg>
+            </button>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="content">
+      <header class="content__header">
+        <div class="header__menu">
+          <button id="openMenu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+          <button href="#" id="openBookmark" class="text-yellow" data-id="1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
               height="30"
               fill="currentColor"
-              class="bi bi-plus-lg"
+              class="bi bi-bookmark-fill"
               viewBox="0 0 16 16"
             >
               <path
-                fill-rule="evenodd"
-                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2"
               />
             </svg>
-          </div>
-        </button>
-        <h1>MỤC LỤC</h1>
-        <ul>
-          <li><a href="./foreword.html">Lời mở đầu</a></li>
-          <li>
-            <a href="./chapter-1.html">
-              <p>Nền hội hoạ trước Giotto</p>
-              <p>I</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.1.html">
-              <p>Những bức hoạ đầu tiên</p>
-              <p>I.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.2.html">
-              <p>Thời Thượng cổ</p>
-              <p>I.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.3.html">
-              <p>Nghệ thuật cổ Cơ Đốc và sơ Trung cổ</p>
-              <p>I.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.html">
-              <p>Nền hội hoạ Gothic</p>
-              <p>II</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.1.html">
-              <p>Nghệ thuật Gothic nguyên thuỷ</p>
-              <p>II.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.2.html">
-              <p>Phong cách Gothic quốc tế</p>
-              <p>II.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.3.html">
-              <p>Những cuộc cách tân ở Bắc Âu</p>
-              <p>II.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.4.html">
-              <p>Hội hoạ cuối thời kì Gothic</p>
-              <p>II.4</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.html">
-              <p>Thời kì phục hưng ở Ý</p>
-              <p>III</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.1.html">
-              <p>Thời kì phục hưng sơ khai</p>
-              <p>III.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.2.html">
-              <p>Thời kì phục hưng ở Venice</p>
-              <p>III.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.3.html">
-              <p>Cao trào phục hưng</p>
-              <p>III.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.4.html">
-              <p>Thời kì kiểu cách ở Ý</p>
-              <p>III.4</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-    <section class="content">
-      <header class="content__header">
-        <button id="openMenu">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </button>
-        <div class="header__title">
-            II - Nền hội hoạ Gothic
+          </button>
+          <a href="../../home.html" id="homeButton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 50 50"
+              fill="currentColor"
+            >
+              <path
+                d="M 24.962891 1.0546875 A 1.0001 1.0001 0 0 0 24.384766 1.2636719 L 1.3847656 19.210938 A 1.0005659 1.0005659 0 0 0 2.6152344 20.789062 L 4 19.708984 L 4 46 A 1.0001 1.0001 0 0 0 5 47 L 18.832031 47 A 1.0001 1.0001 0 0 0 19.158203 47 L 30.832031 47 A 1.0001 1.0001 0 0 0 31.158203 47 L 45 47 A 1.0001 1.0001 0 0 0 46 46 L 46 19.708984 L 47.384766 20.789062 A 1.0005657 1.0005657 0 1 0 48.615234 19.210938 L 41 13.269531 L 41 6 L 35 6 L 35 8.5859375 L 25.615234 1.2636719 A 1.0001 1.0001 0 0 0 24.962891 1.0546875 z M 25 3.3222656 L 44 18.148438 L 44 45 L 32 45 L 32 26 L 18 26 L 18 45 L 6 45 L 6 18.148438 L 25 3.3222656 z M 37 8 L 39 8 L 39 11.708984 L 37 10.146484 L 37 8 z M 20 28 L 30 28 L 30 45 L 20 45 L 20 28 z"
+              ></path>
+            </svg>
+          </a>
         </div>
-        <div class="header__language">
-            <a href="#" class="header__language--link">VIE</a>
-            /
-            <a href="#" class="header__language--link">ENG</a>
-          </div>
+
+        <div class="header__title">HỘI HỌA CUỐI THỜI KỲ GOTHIC</div>
+        <div class="header__language">Soeur Wendy Beckett</div>
       </header>
       <main class="main">
-        <div class="banner">
-          <video controls autoplay muted loop>
-            <source src="../../../assets/videos/6.mp4" type="video/mp4">
-          </video>
-          <audio controls autoplay loop>
-            <source src="../../../assets/audios/2.4.mp3" type="audio/mp3">
-          </audio>
-        </div>
-        <div class="banner__content">
-          <h1 class="banner__title">HỘI HỌA CUỐI THỜI KỲ GOTHIC</h1>
-          <div class="banner__img"><img src="../../../assets/videos/waveform-audio-unscreen.gif" alt=""></div>
-          <a class="banner__link" href="#">Đọc</a>
+        <div class="content__container">
+          <h1 class="content__title">HỘI HỌA CUỐI THỜI KỲ GOTHIC</h1>
+          <div class="content__rs">
+            Gérard David, Jérôme Bosch và Matthias Grunewald là những nghệ sĩ ở
+            đầu thế kỷ 16 và đồng thời với Albrecht Dürer, Lucas Cranach và Hans
+            Holbein. Tuy nhiên, tác phẩm của những người đầu còn gắn chặt với
+            truyền thống gothic trong khi những người sau thì đã chịu ảnh hưởng
+            mạnh mẽ của thời đại Phục hưng Ý. Hai khuynh hướng nghệ thuật gothic
+            và Phục hưng đã song song tồn tại như thế ở Bắc Âu trong nửa đầu thế
+            kỷ 16.
+          </div>
+          <div class="content__p">
+            Gérard David (khoảng 1460-1523), người kế tục không chính thức của
+            Memling ở Bruges là một họa sĩ nổi tiếng có xưởng vẽ phát đạt. Hình
+            tượng Đức Mẹ của ông, gần như một đứa trẻ, làm người ta say mê ngay
+            bởi cái vẻ mong manh đầy xúc động. Trong bức tranh Nghỉ chân trên
+            đường chạy trốn tới Ai Cập, Đức Mẹ cầm một chùm nho cho Chúa Hài
+            Đồng, biểu tượng cho máu khổ hình, nhưng vẻ mặt trầm tĩnh của bà
+            không cho thấy một dự cảm nào. Bà hoàn toàn để hết tâm trí vào Chúa
+            Hài Đồng, trong một sự mơ màng triển miên, tất cả gánh nặng dã dồn
+            cho thánh Joseph ở hậu cảnh và con lừa đang trầm tư.
+          </div>
+          <div class="content__p">
+            Phong cách đặc trưng của Hà Lan ở đầu thế kỷ 15 mà dại diện là tranh
+            của Campin và Van Eyck, đạt tới cực độ với tác phẩm của David. Ở họa
+            sĩ này, chúng ta thấy được những phẩm chất hoành tráng của truyền
+            thống Bắc Âu, cuồng nhiệt với hình ảnh mới của hội họa, cái truyền
+            thống sẽ có ảnh hưởng tới Quentin Metsys và Jan Gossaert (tức
+            Mabuse). Ở hai họa sĩ này, những truyền thống khác biệt của phương
+            Bắc và phương Nam lại pha trộn lẫn nhau, nhưng chỉ sau khi thời kỳ
+            phục hưng Ý tạo được ảnh hưởng lớn lao và không gì cưỡng nổi. Nghệ
+            thuật Bắc Âu vẫn giữ tính chính thống của nó nhưng có hơi hướng Ý.
+          </div>
+          <div class="content__s">BOSCH: MỘT Ý NIỆM DUY NHẤT</div>
+          <div class="content__p">
+            Jérôme Bosch (khoảng 1450-1516) là một họa sĩ kỳ lạ, ông thoát ra
+            khỏi sự ràng buộc của truyền thống Flandre. Phong cách độc đáo của
+            ông có tính tự do làm người ta sửng sốt, và chủ nghĩa tượng trưng có
+            một sức mạnh đặc biệt, tới nay vẫn không có người sánh kịp. Phong
+            cách đó biểu thị một tinh thần bi quan mãnh liệt và phản ánh sự ưu
+            tư của một thời đại bị giày vò vì những xáo trộn xã hội và chính
+            trị. Người ta biết rất ít về Bosch, - điều này có vẻ phù hợp với tác
+            phẩm rất bí hiểm của ông, ngoại trừ việc ông lấy tên theo tên của
+            thành phố Hà Lan, gần Anvers, Hertogenbosch, việc ông thuộc một cộng
+            đồng tôn giáo có tên là hội Đức Bà và việc ông nổi tiếng ngay khi
+            còn sống.
+          </div>
+          <div class="content__p">
+            Tranh của ông thường thể hiện đề tài tôn giáo, và nhiều bức lấy đề
+            tài khổ nạn của Chúa. Ông độc biệt nổi tiếng về những tác phẩm hư
+            ảo, quái dị, đầy hình ảnh ma quỷ và quái vật, trong đó có bức Cám dỗ
+            của thánh Antoine.
+          </div>
+          <div class="content__p">
+            Trên tấm giữa của bộ tranh ba tấm này, thánh Antoine bị những con
+            quỷ, người có đầu như mọc gai và những con cá-thuyền giày vò. Dù có
+            vẻ kỳ lạ, quái dị đối với chúng ta, những hình ảnh này hẳn là quen
+            thuộc với người dương thời, bởi chúng ám chỉ tới những ngạn ngữ
+            Flandre và một thuật ngữ tôn giáo. Điều phí thường là niềm tin sâu
+            sắc đã cho nét bút của Bosch thêm sinh khí, như thể những sinh vật
+            tưởng tượng đó có thật. Ông đã cho mỗi sáng tạo quá quắt của ông
+            cùng một nét hiện thực như các nhân vật và con vật của ông. Những
+            hình ảnh như trong ác mộng dường như có một sức mạnh siêu nhiên
+            không giải thích được.
+          </div>
+          <div class="content__p">
+            Ngay một bức tranh như Đường đời theo phong cách tự nhiên hơn, cũng
+            có những yếu tố ghê khiếp. Ngoài con chó gầm gừ với ông lão khốn
+            khổ, chiếc sọ và những cái xương thú vật ở tiền cảnh, còn có những
+            tên cướp đang tấn công một khách lữ hành ở hậu cảnh và một nạn nhân
+            đang chạy ra xa. Bức Đường đời được về ở mặt sau của một tấm trong
+            bộ tranh ba tấm. Ba tấm tranh phía sau trình bày nhãn quan bi thảm
+            của Bosch đối với cuộc sống con người, nhấn mạnh sự thắng thế của
+            tội lỗi. Thiên đường đã mất được thể hiện ở bên trái, những thói hư
+            tật xấu của con người ở giữa, và hậu quả của chúng, sự sa địa ngục,
+            ở bên phải.
+          </div>
+          <div class="content__s">MINH HỌA PHÚNG DỤ</div>
+          <div class="content__p">
+            Trong bức Chiếc thuyền của người điên, Bosch đặt loài người vào một
+            chiếc thuyền nhỏ trên biển thời gian. Tất cả người trên thuyền đều
+            là người điên. Bosch nói rằng đó là cuộc đời của chúng ta, chúng ta
+            ăn uống, yêu đương, lừa đảo, dự những trò chơi ngu ngốc, theo đuổi
+            những mục tiêu không thể đạt tới. Trong thời gian đó, con thuyền của
+            chúng ta trôi giạt không mục đích và không bao giờ chúng ta tới được
+            bến. Tôn giáo được tượng trưng bằng một tu sĩ và một nữ tu, nhưng họ
+            cùng thuộc vào nhóm những người sống "trong sự ngu ngốc". Bosch chế
+            nhạo, nhưng nụ cười của ông rất buồn. Trong chúng ta, ai là người
+            không ngồi trong chiếc thuyền điên dại đáng buồn của nhân loại?
+            Thiên tài bí hiểm và kỳ quặc, Bosch không chỉ làm chúng ta xúc động,
+            ông gây công phẫn bằng cách mở mắt chúng ta. Những quái vật hung dữ
+            mà ông trưng ra là những sản phẩm sâu kín của tinh thần tự kỷ trong
+            tâm của chúng ta. Ông phơi bày cái xấu xa bên trong của chúng ta, vì
+            vậy những con quỷ dị dạng của ông đạt được mục đích nhiều hơn sự tò
+            mò của chúng ta. Chúng ta không ưa cảm thấy cùng một gia đình. Chiếc
+            thuyền của người điên không liên quan tới người khác, nó liên quan
+            tới chúng ta, chính chúng ta.
+          </div>
+          <div class="content__s">MỘT BÀI NGỤ NGÔN LUÂN LÝ</div>
+          <div class="content__p">
+            Bức Cái chết của người keo kiệt, cũng của Bosch, là một lời cảnh cáo
+            cho bất cứ người nào bám chặt vào những lạc thú của cuộc đời và
+            không sửa soạn cho cái chết. Ai có thể dửng dưng với lời ngụ ngôn
+            đó? Trong một khung hẹp trên cao, Bosch dàn dựng câu chuyện thương
+            tâm.
+          </div>
+          <div class="content__p">
+            Người hấp hối, trần truồng, trước kia là một người hùng mạnh. Ở phía
+            chân giường, cách một bức tường thấp, là bộ áo giáp của ông ta. Con
+            người đó hẳn đã chiến đấu để tranh đoạt của cải, và ông chồng chất
+            của cải bên mình. Bosch thể hiện ông ta hai lần, lần thứ hai trong
+            dạng một người mạnh khỏe, ăn mặc giản dị vì ông đang thu nhặt vàng
+            bạc, bỏ thêm một đồng vàng vào túi vàng của mình, toàn bộ con người
+            ông ta biểu lộ sự hài lòng cao độ. Những con quỷ quanh quẩn bên ông,
+            tử thần lấp ló sau cửa, ném một cái nhìn thèm thuồng (hãy để ý vẻ
+            ngạc nhiên của người bệnh; người ta không bao giờ chờ đợi cái lúc
+            mình phải chết), và cuộc chiến đấu cuối cùng bất dầu lần này con
+            người trơ trọi, không có áo giáp. Cả trong giây phút cuối cùng đó,
+            trước mặt ông ta cũng có một con quỷ đem vàng cám dỗ ông. Phía trên
+            ông ta, một con quỷ khác đang nhìn, hết sức chú ý và đẩy hy vọng.
+            Câu chuyện chưa kết thúc. Chúng ta rất mong còn người tham lam đó bỏ
+            rơi của cải trần gian để chấp nhận thực tế của cái chết.
+          </div>
+          <div class="content__rs">HÌNH ẢNH CHÚA BỊ ĐÓNG ĐINH</div>
+          <div class="content__rp">
+            Yếu tố trung tâm của bức tranh là cuộc chiến đấu giành linh hơn của
+            kè tham lam. Thân hộ mạng của ông ta cố gây ảnh hương để cửu với
+            linh hơn của ông - có lẽ là không hiệu quả - và lôi cuốn sự quan tâm
+            của hè hấp hồi từ hình ảnh Chúa bị đóng đinh ở trên cao - cũng vô
+            ích nối.
+          </div>
+          <div class="content__rs">CHÂN DUNG TỰ HỌA ?</div>
+          <div class="content__rp">
+            Ở tiến cảnh, một con quý nhỏ nhìn chúng ta, nấp sau chiếc áo lụa của
+            người hấp hối; đây là bộ mặt thường thấy trong tranh của Bosch, Ôm
+            o, nhăn nhúm, không hy vọng. Có phải đây là chân dung của chính
+            Bosch, được vẽ một cách mỉa mai cay độc ?
+          </div>
+          <div class="content__rs">SỰ CÁM DỖ CUỐI CÙNG</div>
+          <div class="content__rp">
+            Một con quý kỳ dị biết sự yếu đuối của kè tham lam, đưa cho ông ta
+            một túi vàng để chiếm linh hồn ông ta. Chúng ta phải tự rút ra kết
+            luận trong tấn kịch này của con người, nhưng củ chỉ thèm thuống của
+            người hấp hối vẫn còn tham muốn của cải vật chất cho thấy ông ta đã
+            thua.
+          </div>
+          <div class="content__rs">TIỀN BẠC VÀ BẢN ÁN</div>
+          <div class="content__rp">
+            Sự dâm ô, thói tham ăn và tính keo kiệt là ba đại tội và là những
+            chủ đề phổ biến trong những bài thuyết giáo ở thế kỷ 15.
+          </div>
+          <div class="content__rp">
+            Chiếc tủ sắt chiếm vị trí trung tâm, đóng vai trò nguyên nhân của
+            bản án cho kẻ tham lam. Trái với người xem, người tham lam dường như
+            không nhìn thấy những con vật xấu xa độc ác nấp trong tủ. Ông ta
+            cũng không biết rằng trùng hạt ông ta đeo bên chiếc chìa khóa không
+            cứu giúp gì cho ông ta.
+          </div>
+          <div class="content__s">Ý NIỆM BI THẢM CỦA GRÜNEWALD</div>
+          <div class="content__p">
+            Đóa hoa cuối cùng của nghệ thuật gothic xuất hiện tượng đối trễ: tác
+            phẩm của họa sĩ Đức Matthias Grünewald (tên thật là Mathis Gotthardt
+            hay Neithardt, (khoảng 1470-1528), người đồng thời với Dürer. Trong
+            khi Dürer chịu ảnh hưởng sâu đậm của phong trào Phục hưng thì
+            Grünewald không biết tới phong trào đó, trong sự chọn lựa chủ đề
+            cũng như phong cách thể hiện. Phần lớn tác phẩm của ông đã mất hết,
+            nhưng những gì còn lại cũng cho phép khẳng định Grünewald là một
+            trong những họa sĩ biểu tượng vĩ đại nhất. Không có họa sĩ nào khác
+            đã thể hiện sự khủng khiếp của thống khổ một cách kinh khủng và xác
+            thực đến thế, nhưng, trái với Bosch, vẫn không đánh mất niềm tin vào
+            sự cứu rỗi. Bức Chúa bị đóng đinh (hình 10) của ông là một trong
+            nhiều tranh bày trên bàn thờ nhà thờ Issenheim (Đức) để củng cố tinh
+            thần của người bệnh ở bệnh viện của tu viện. Hình ảnh Chúa trông rất
+            kinh khủng, da bị căng ra và bị rách vì roi vọt tra tấn, hình ảnh có
+            sức mạnh mẽ đối với một bệnh viện trị bệnh ngoài da.
+          </div>
+          <div class="content__img">
+            <img src="../../../assets/images/pic_10.jpg" alt="" />
+            <div class="content__img--caption">
+              Matthias Grünewald, Chúa bị đóng đinh (Isenheim Altarpiece),
+              khoảng năm 1509 - 1515, 105 9/10 inches x 10 feet, Unterlinden
+              Museum, Pháp
+            </div>
+          </div>
+          <div class="content__p">
+            Bức tranh khổ nhỏ, cũng lấy đề tài Chúa bị đóng đinh. Bức tranh
+            chiếm hết không gian, đè bẹp chúng ta, không chừa một lối thoát, cơn
+            hấp hối tràn ngập hết bức tranh. Xung quanh là núi non và bóng tối,
+            chúng ta đơn độc với sự đau đớn của Chúa, chúng ta bắt buộc nhìn vào
+            sự thật. Một đoạn kinh trong Cựu ước mô tả "người phụng sự chịu đau
+            khổ đó như "một con sâu chứ không phải một con người". Trong cái cao
+            cả của sự thật đó, nghệ thuật gothic đã đạt tới mức kích động lớn
+            lao.
+          </div>
+          <div class="content__p">
+            Bức Chúa bị đóng đinh khổ lớn là sự nghiên cứu phi thường về sự đau
+            khổ của con người, sự đau khổ mãnh liệt làm hình dạng người ta biến
+            đổi.
+          </div>
+          <div class="content__rs">SỰ ĐAU ĐỚN CỦA THỂ XÁC</div>
+          <div class="content__rp">
+            Cọc thánh giá là cột gỗ xoàng, oằn dưới sức nặng cơ thể của Jesus.
+            Chúa đang hấp hối, hai cánh tay bị kéo dài ra một cách khác thường,
+            biểu thị sự đau đớn ghê gớm, vừa như một lời trách móc tuyệt vọng,
+            vừa như sự phó thác trong tay Chúa.
+          </div>
+          <div class="content__rs">LỜI TIÊN TRI CỦA THÁNH JEAN</div>
+          <div class="content__rp">
+            Thánh Jean - Người rửa tội đi chân không, mặc áo da thú, biểu tượng
+            thời gian ông ở trong sa mạc, và cầm một quyền sách. Dường như ông
+            cố chống chọi sự kinh khiếp của thời điểm đó và tỏ ra vừng vàng tin
+            tưởng vào lời tiên tri nổi lên trong bóng tối của bầu trời: "Người
+            đến sau ta sẽ mạnh mẽ hơn ta." Thánh Jean phát biểu thông điệp hy
+            vọng và cứu chuộc của giáo lý cơ đốc, và như vậy đã cần bằng cảnh
+            tượng đau đón.
+          </div>
+          <div class="content__rs">SỰ ĐAU ĐỚN CỦA NGƯỜI THÂN THUỘC</div>
+          <div class="content__rp">
+            Cách biệt với hình ảnh khắc kỷ của thánh Jean - Người rửa tội, ở
+            phía bên kia thân hình Chúa bị hành hạ và đang hấp hối, là những
+            người thân thuộc, tâm hồn tan nát. Đức Mẹ Maria là người đi, vì đau
+            đớn kiệt lực hoặc vì để khỏi nhìn thấy Con mình bị đóng đinh. Thoạt
+            đầu, Grünewald đã vẽ Bà đứng thẳng; về sau, ông vẽ Bà ngã ra sau,
+            bất tỉnh. Thánh Jean - Người viết Phúc âm, tuyệt vọng, đã Bà.
+          </div>
+          <div class="content__rs">HÌNH ẢNH HẤP HỐI</div>
+          <div class="content__rp">
+            Grünewald đưa nỗi ám ảnh của nghệ thuật gô tích về sự thống khổ, tội
+            lời và cái chết lên tới điểm cao nhất. Ở đây, Chúa Jesus được thể
+            hiện như một kẻ tuẫn đạo thật sự, khác hần hình ảnh mạnh mẽ, đẹp đẽ
+            của Chúa Cứu thế hùng dúng thời Phục hưng. Cách nhìn của Grünewald
+            cho thấy một hình ảnh khủng khiếp, biểu tượng của sự tàn bạo và sự
+            hư hỏng của con người, nhưng cũng là sự thể hiện lòng xót thương tối
+            cao và on phước của Chúa Cứu thế.
+          </div>
+          <div class="content__rs">CON CỪU CỦA CHÚA</div>
+          <div class="content__rp">
+            Con cừu, con vật hiến sinh của người Do thái, được tín đồ cơ đốc đầu
+            tiên chọn làm biểu tượng cho sự hy sinh của Chúa Cứu thế. Thánh Jean
+            khi gập Chúa đã nói: "Đây là con cừu của Chúa Trời." Hình ảnh con
+            cừu thường được vẽ với một thánh giá.
+          </div>
         </div>
       </main>
+      <footer>
+        <button id="themeButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-palette-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+            />
+          </svg>
+        </button>
+        <button id="fontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-file-earmark-font-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5z"
+            />
+          </svg>
+        </button>
+        <button id="highlightButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-highlighter"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z"
+            />
+          </svg>
+        </button>
+        <button id="increaseFontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-plus-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+            />
+          </svg>
+        </button>
+        <button id="decreaseFontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-dash-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"
+            />
+          </svg>
+        </button>
+        <button id="aspecratioButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-aspect-ratio"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"
+            />
+            <path
+              d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"
+            />
+          </svg>
+        </button>
+      </footer>
     </section>
     <script src="../../../assets/scripts/bookMenu.js"></script>
+    <script src="../../../assets/scripts/read.js"></script>
   </body>
 </html>

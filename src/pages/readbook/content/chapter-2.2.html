@@ -9,144 +9,519 @@
   </head>
   <body>
     <section class="sidebar" id="sidebar">
-        <button class="close__button" id="closeMenu">
-          <div class="close__button--icon">
+      <button class="close__button" id="closeMenu">
+        <div class="close__button--icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </div>
+      </button>
+      <h1>MỤC LỤC</h1>
+      <ul>
+        <li><a href="../banner/foreword.html">Lời mở đầu</a></li>
+        <li>
+          <a href="../banner/chapter-1.html">
+            <p>Nền hội hoạ trước Giotto</p>
+            <p>I</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.1.html">
+            <p>Những bức hoạ đầu tiên</p>
+            <p>I.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.2.html">
+            <p>Thời Thượng cổ</p>
+            <p>I.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.3.html">
+            <p>Nghệ thuật cổ Cơ Đốc và sơ Trung cổ</p>
+            <p>I.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.html">
+            <p>Nền hội hoạ Gothic</p>
+            <p>II</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.1.html">
+            <p>Nghệ thuật Gothic nguyên thuỷ</p>
+            <p>II.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.2.html">
+            <p>Phong cách Gothic quốc tế</p>
+            <p>II.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.3.html">
+            <p>Những cuộc cách tân ở Bắc Âu</p>
+            <p>II.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.4.html">
+            <p>Hội hoạ cuối thời kì Gothic</p>
+            <p>II.4</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.html">
+            <p>Thời kì phục hưng ở Ý</p>
+            <p>III</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.1.html">
+            <p>Thời kì phục hưng sơ khai</p>
+            <p>III.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.2.html">
+            <p>Thời kì phục hưng ở Venice</p>
+            <p>III.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.3.html">
+            <p>Cao trào phục hưng</p>
+            <p>III.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.4.html">
+            <p>Thời kì kiểu cách ở Ý</p>
+            <p>III.4</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="mark" id="mark">
+      <button class="close__button" id="closeBookmark">
+        <div class="close__button--icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </div>
+      </button>
+      <h1>DANH SÁCH ĐÁNH DẤU</h1>
+      <ul>
+        <li>
+          <a href="#">
+            <p>Đánh dấu 1</p>
+            <button class="remove__button--icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-plus-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                />
+              </svg>
+            </button>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="content">
+      <header class="content__header">
+        <div class="header__menu">
+          <button id="openMenu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+          <button href="#" id="openBookmark" class="text-yellow" data-id="1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
               height="30"
               fill="currentColor"
-              class="bi bi-plus-lg"
+              class="bi bi-bookmark-fill"
               viewBox="0 0 16 16"
             >
               <path
-                fill-rule="evenodd"
-                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2"
               />
             </svg>
-          </div>
-        </button>
-        <h1>MỤC LỤC</h1>
-        <ul>
-          <li><a href="./foreword.html">Lời mở đầu</a></li>
-          <li>
-            <a href="./chapter-1.html">
-              <p>Nền hội hoạ trước Giotto</p>
-              <p>I</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.1.html">
-              <p>Những bức hoạ đầu tiên</p>
-              <p>I.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.2.html">
-              <p>Thời Thượng cổ</p>
-              <p>I.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.3.html">
-              <p>Nghệ thuật cổ Cơ Đốc và sơ Trung cổ</p>
-              <p>I.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.html">
-              <p>Nền hội hoạ Gothic</p>
-              <p>II</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.1.html">
-              <p>Nghệ thuật Gothic nguyên thuỷ</p>
-              <p>II.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.2.html">
-              <p>Phong cách Gothic quốc tế</p>
-              <p>II.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.3.html">
-              <p>Những cuộc cách tân ở Bắc Âu</p>
-              <p>II.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.4.html">
-              <p>Hội hoạ cuối thời kì Gothic</p>
-              <p>II.4</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.html">
-              <p>Thời kì phục hưng ở Ý</p>
-              <p>III</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.1.html">
-              <p>Thời kì phục hưng sơ khai</p>
-              <p>III.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.2.html">
-              <p>Thời kì phục hưng ở Venice</p>
-              <p>III.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.3.html">
-              <p>Cao trào phục hưng</p>
-              <p>III.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.4.html">
-              <p>Thời kì kiểu cách ở Ý</p>
-              <p>III.4</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-    <section class="content">
-      <header class="content__header">
-        <button id="openMenu">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </button>
-        <div class="header__title">
-            II - Nền hội hoạ Gothic
+          </button>
+          <a href="../../home.html" id="homeButton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 50 50"
+              fill="currentColor"
+            >
+              <path
+                d="M 24.962891 1.0546875 A 1.0001 1.0001 0 0 0 24.384766 1.2636719 L 1.3847656 19.210938 A 1.0005659 1.0005659 0 0 0 2.6152344 20.789062 L 4 19.708984 L 4 46 A 1.0001 1.0001 0 0 0 5 47 L 18.832031 47 A 1.0001 1.0001 0 0 0 19.158203 47 L 30.832031 47 A 1.0001 1.0001 0 0 0 31.158203 47 L 45 47 A 1.0001 1.0001 0 0 0 46 46 L 46 19.708984 L 47.384766 20.789062 A 1.0005657 1.0005657 0 1 0 48.615234 19.210938 L 41 13.269531 L 41 6 L 35 6 L 35 8.5859375 L 25.615234 1.2636719 A 1.0001 1.0001 0 0 0 24.962891 1.0546875 z M 25 3.3222656 L 44 18.148438 L 44 45 L 32 45 L 32 26 L 18 26 L 18 45 L 6 45 L 6 18.148438 L 25 3.3222656 z M 37 8 L 39 8 L 39 11.708984 L 37 10.146484 L 37 8 z M 20 28 L 30 28 L 30 45 L 20 45 L 20 28 z"
+              ></path>
+            </svg>
+          </a>
         </div>
-        <div class="header__language">
-            <a href="#" class="header__language--link">VIE</a>
-            /
-            <a href="#" class="header__language--link">ENG</a>
-          </div>
+
+        <div class="header__title">PHONG CÁCH GOTHIC QUỐC TẾ</div>
+        <div class="header__language">Soeur Wendy Beckett</div>
       </header>
       <main class="main">
-        <div class="banner">
-          <video controls autoplay muted loop>
-            <source src="../../../assets/videos/6.mp4" type="video/mp4">
-          </video>
-          <audio controls autoplay loop>
-            <source src="../../../assets/audios/2.2.mp3" type="audio/mp3">
-          </audio>
-        </div>
-        <div class="banner__content">
-          <h1 class="banner__title">PHONG CÁCH GOTHIC QUỐC TẾ</h1>
-          <div class="banner__img"><img src="../../../assets/videos/waveform-audio-unscreen.gif" alt=""></div>
-          <a class="banner__link" href="#">Đọc</a>
+        <div class="content__container">
+          <h1 class="content__title">PHONG CÁCH GOTHIC QUỐC TẾ</h1>
+          <div class="content__p">
+            Cuối thế kỷ 14, phong cách gothic quốc tế ra đời từ sự kết hợp của
+            nghệ thuật Ý và nghệ thuật Bắc Âu. Ở thế kỷ sau, những cuộc trao đổi
+            giữa Ý và Pháp diễn ra nhiều, và các họa sĩ tài năng cùng đi lại
+            khắp châu Âu. Tư tưởng luân lưu và hòa trộn với nhau và chẳng bao
+            lâu sau phong cách mới đã được thể hiện ở Pháp, Ý, Anh, Đức, Áo và
+            Bohême.
+          </div>
+          <div class="content__p">
+            Ảnh hưởng của Simone Martini đã lan tràn rất xa. Ông đã rời nước Ý
+            vào năm 1340 hoặc 1341 để làm việc cho triều đình của giáo hoàng
+            thời đó ở Avignon, nước Pháp. Ở đây người ta rất tán thưởng nét vẽ
+            tinh vi của ông. Thêm vào sự thanh lịch quý phái của phong cách
+            gothic quốc tế là sự chăm chút tới chi tiết hiện thực vay mượn của
+            người Flandre. Trái với các ngành nghệ thuật gothic nguyên thủy khác
+            nhau, phong cách này có đặc tính riêng.
+          </div>
+          <div class="content__p">
+            Một thí dụ cổ điển và quốc tế thật sự là Bức tranh hai tấm của
+            Wilton, ngày nay nằm ở National Gallery, Luân đón. Tác phẩm có sự
+            tinh tế tuyệt mỹ này vẫn không biết tác giả là ai và rất khó định
+            niên đại. Có lẽ nó đã được vẽ vào một lúc nào đó dưới triều đại của
+            Richard II (1377-1399); các chuyên gia không thể nào đồng ý với nhau
+            về quốc tịch của bức tranh - Anh, Pháp, Flandre hay từ Bohême tới -
+            nên chứng tỏ rằng nó thuộc phong cách quốc tế. Nhan đề của bức tranh
+            được mượn từ ngôi nhà người ta tìm ra nó ở Anh.
+          </div>
+          <div class="content__p">
+            Bức tranh hai tấm của Wilton mô tả Richard II của nước Anh quỳ trước
+            Đức Mẹ và Chúa Hài Đồng. Hai vị thánh người Anh di theo nhà vua,
+            Edmond (cầm một mũi tên) và Edouard linh mục nghe xưng tội (cầm một
+            chiếc nhẫn), nhân vật thứ ba là Jean Baptiste. Các thiên thần mỗi vị
+            đeo một món châu báu dưới hình thức một con hươu trắng, biểu tượng
+            của vua Richard. Có lẽ bức tranh có mục đích củng cố cơ sở thần
+            quyền (vương quyền siêu nhiên) của vua Richard, điều này có vẻ được
+            xác nhận bởi cử chỉ ban phép lành của Chúa Hài Đồng. Bức tranh cũng
+            viện dẫn tới lễ Epiphanie với ba vua chiêm bái Chúa Hài Đồng.
+          </div>
+          <div class="content__s">NHỮNG NGHỆ SĨ TRANG TRÍ SÁCH</div>
+          <div class="content__p">
+            Nghệ thuật trang trí sách cổ xưa vẫn còn là hình thức hội họa chính
+            yếu ở Pháp vào đầu thế kỷ 15. Nghệ thuật này đạt tới cực đỉnh với
+            tác phẩm của ba anh em Paul, Herman và Jean Limbourg, những đại diện
+            của phong cách gothic quốc tế. Ba anh em nguyên quán ở tỉnh Guilder,
+            Hà Lan, nhưng hoạt động ở Pháp. Cùng với Ambrogio Lorenzetti, họ là
+            những họa sĩ gothic duy nhất thể hiện một cách tỉ mỉ và có phương
+            pháp một thành thị với vùng phụ cận, dân cư và nhà cầm quyền. Cả ba
+            anh em mất năm 1416, có lẽ vì bệnh dịch.
+          </div>
+          <div class="content__p">
+            Tuyệt tác của ba anh em là Những thời khắc rất phong phú của công
+            tước xứ Berry, thực hiện cho tông tước, một người bảo trợ văn học
+            nghệ thuật và sưu tập sách viết tay cuồng nhiệt. Quyển sách mà ba
+            anh em trang trí là một quyển sách kinh mà ở thế kỷ 15 người ta gọi
+            là "kinh giờ", đọc bảy lần trong ngày. Công tước Berry là em của vua
+            Charles V Le Sage (Pháp). Ông cho xây dựng nhiều lâu đài, trang trí
+            bằng những tác phẩm nghệ thuật đặt làm riêng: thảm, tranh và nữ
+            trang châu báu. Người ta đồn ông có tới 1500 con chó. Quyền "kinh
+            giờ" của ông, rủi thay, không hoàn tất do cái chết của nhà bảo trợ
+            và các nghệ sĩ.
+          </div>
+          <div class="content__p">
+            Quyển kinh giờ có một quyền lịch. Mỗi tháng được tượng trưng bằng
+            một cảnh sinh hoạt chi tiết, thường là nói về hoạt động đặc thù của
+            mùa đó. Thí dụ, tháng tám, các cặp vợ chồng ăn mặc sang trọng, cưỡi
+            ngựa đi săn bằng chim ưng, tòa lâu đài lấp lánh ở đàng xa, các nông
+            dân khoái trá tấm dưới sông. Phần màu lam ở phía trên là một nửa bầu
+            trời với các dấu hiệu chiêm tinh học. Bức tiểu họa này, do sự cực kỳ
+            tinh tế và tính hiện thực của nó, minh họa hoàn hảo sự chính xác và
+            tính cách cầu kỳ của loại tranh này.
+          </div>
+          <div class="content__p">
+            Bức Vườn Địa đàng được vẽ riêng và xen vào sách sau. Trong hình tròn
+            lớn là thế giới trước lúc Adam và Eva phạm tội. Toàn bộ câu chuyện
+            Thiên đàng đã mất và sự ngang bướng của con người diễn ra trước mắt
+            chúng ta. Adam và Eva bị đuổi ra khỏi chốn cực lạc, đứng trên những
+            mỏm đá cheo leo nguy hiểm. Sự chăm chút chi tiết kết hợp với ý thức
+            tự sự đặc biệt cao.
+          </div>
+          <div class="content__s">GENTILE DA FABRIANO</div>
+          <div class="content__p">
+            Họa sĩ Ý Gentile da Fabriano (khoảng 1370-1427), một lữ khách không
+            biết mệt mỏi, có ảnh hưởng rất lớn với thời đại của mình. Ông đã góp
+            sức truyền bá nghệ thuật gothic quốc tế trong phần lớn nước Ý, mà
+            ông là người đại diện không chối cãi được. Những bức tranh lớn của
+            ông cho thấy vô vàn chi tiết trong hình ảnh một thế giới hết sức
+            phong phú. Nghệ sĩ cho câu chuyện tính chất hiện thực vừa đủ để có
+            vẻ thuyết phục.
+          </div>
+          <div class="content__p">
+            Phần lớn tác phẩm của Gentile làm ông nổi tiếng lúc sinh thời nay đã
+            mất. Trong số còn lại, bức Sự chiêm bái của ba vua là bức tranh gây
+            xúc động nhất. Số nhân vật có vẻ thật đông, choán hết bức tranh, thu
+            hút sự chú ý của chúng ta và tạo cảnh náo nhiệt, nhưng không vì vậy
+            mà làm loãng chủ đề của bức tranh. Ba vua đạo sĩ từ phương Đông tới
+            để chiêm bái Chúa Hài Đồng, mang theo cả triều đình huy hoàng, lạ
+            mắt: lạc đà, ngựa, chó, thị thần, hề lùn. Vậy mà thu hút sự chú ý là
+            hình ảnh nhỏ nhấn của Chúa Hài Đồng ngồi trên gối mẹ và nghiêng mình
+            để nhẹ nhàng đặt bàn tay lên đầu vị vua già quỳ trước mặt.
+          </div>
+          <div class="content__p">
+            Như trong bức Truyền tin của Simone Martini, khung cảnh gothic, phức
+            tạp và huy hoàng, là bộ phận không thể tách rời của tác phẩm và bắt
+            buộc cấu trúc của tác phẩm phải theo. Bức Sự chiêm bái của ba vua do
+            Palla Strozzi là người giàu nhất Florence thời đó dặt vẽ cho nhà thờ
+            Santa Trinita. Sự quan tâm cho giai thoại có mặt trong tác phẩm
+            Gentile da Fabriano cũng thấy trong bức Trình diện ở Đền thờ. Sự
+            kiện thiêng liêng đó là yếu tố trung tâm của bức tranh, nhưng ở mỗi
+            bên bức tranh là những cảnh sinh hoạt thường ngày: hai người đàn bà
+            đang trò chuyện và những người hành khất đang xin ăn.
+          </div>
+          <div class="content__s">HỌA SĨ VÀ NGHỆ SĨ KHẮC HUY CHƯƠNG</div>
+          <div class="content__p">
+            Sự trong suốt của Gentile cũng thấy ở người đồng hương là Pisanello
+            (khoảng 1395-1455/56). Từ lâu người ta tin rằng hầu hết bích họa của
+            ông đã mất hết. Nhưng, may thay, nhiều bức vừa được tìm thấy ở
+            Mantoue thành phố ở Bắc Ý.
+          </div>
+          <div class="content__p">
+            Bức Đức Mẹ đồng trinh với thánh Antoine và thánh Georges cho thấy
+            một sự tương phản kỳ lạ. Thánh Antoine, tu sĩ ẩn cư râu dài quá
+            ngực, mặc một cái áo hành hương thô kệch màu rỉ sét, tương phản với
+            hình ảnh lịch sự của thánh Georges ăn mặc sang trọng với chiếc mũ
+            trắng rộng vành và giày có đinh thúc ngựa vàng óng. (Thánh Georges
+            không có vầng hào quang, cái mũ thay vào đó).
+          </div>
+          <div class="content__p">
+            Tuy vậy, bất chấp sự quyến rũ do hình ảnh hai vị thánh, hình ảnh của
+            Đức Mẹ và Chúa Hài Đồng vẫn có ấn tượng mạnh với chúng ta. Lơ lửng
+            trên không, xung quanh như có vầng dương bao bọc, hình ảnh này tạo
+            sự thống nhất và ý nghĩa cho hoạt cảnh.
+          </div>
+          <div class="content__p">
+            Pisanello cũng nổi tiếng về huy chương ngang với tranh. Huy chương
+            của ông một mặt có chân dụng của nhà bảo trợ, mặt kia là một phúng
+            dụ hoặc phong cảnh.
+          </div>
+          <div class="content__s">TRẬN DỊCH ĐEN VÀ NGHỆ THUẬT</div>
+          <div class="content__p">
+            Năm 1347, trận dịch đen đã do những con đường thương mại từ Trung
+            hoa tràn vào và hoành hành khắp châu Âu. Các hạch trong người sưng
+            lên, dưa tới cái chết nhanh chóng và đau đớn. Cư dân một số thành
+            phố giảm mất 40 phần trăm và nhiều làng mạc biến mất hẳn. Trận dịch
+            đã hâm nóng lại nhiệt tâm tôn giáo và gây một ám ảnh về cái chết.
+            Trong một bức tiểu họa, thần chết sát hại không phân biệt hạng người
+            nào, giống hệt trận dịch đen.
+          </div>
+          <div class="content__p">
+            Một số tác phẩm gothic cho thấy tác động của đại họa đã tàn sát gần
+            một phần ba dân số đó. Nhiều người coi đó là sự trừng phạt của Chúa
+            Trời dành cho con người hư hỏng và lòng sùng kính tôn giáo do cơn
+            dịch gây ra không vì chính tôn giáo mà vì những hành động quá dáng
+            như tự đánh roi vào mình, cho là để làm vững lòng. Những họa sĩ như
+            tác giả Quyển kinh giờ của Rohan diễn tả sự mê hoặc trước cái chết
+            và Giờ phán xét. Tinh thần hiện thực ghê gớm trong bức tiểu họa
+            trang trí Người chết trước Người phản xét cho thấy sự tương phản rõ
+            rệt với những bức tiểu họa của anh em Limbourg. Ở đây, người nghệ sĩ
+            vô danh cho thấy mình nghĩ về ý nghĩa và bộ mặt của cái chết không
+            tránh được tới mức độ nào. Bức tranh, với phép phối cảnh cổ điển và
+            không có độ sấu trong không gian, vì thế lại càng có ấn tượng mạnh.
+            Sự kinh khủng về một cái chết như vậy được nhấn mạnh bằng một tử thi
+            lấm tấm những mụn mủ và thối rữa nằm ở tiền cảnh, gần gũi đến nỗi
+            khiến người xem lạnh lùng nhất cũng cảm thấy sợ hãi.
+          </div>
+          <div class="content__p">
+            Lời cầu nguyện cuối cùng của người chết được viết bằng tiếng La tinh
+            trên một dải băng trắng: "Xin đặt linh hồn con vào tay Người, hỡi
+            Chúa cứu thế, Chúa của con, Chúa của sự thật". Chúa cầm một quả cầu
+            và một thanh gươm, những biểu tượng uy quyền của Người với tư cách
+            là Người Phán xét. Đáp lại lời cầu nguyện của người chết, Người nói
+            những lời sau đây (bằng tiếng Pháp): "Mày sẽ bị trừng phạt vì tội
+            lỗi của mày. Mày sẽ gặp ta ở dây vào ngày Phán xét".
+          </div>
+          <div class="content__p">
+            Những hình diện nhỏ phía trên bên trái thể hiện thánh Michael có một
+            đạo quân thiên thần giúp đỡ dạng tấn công một con quỷ đang tìm cách
+            bắt linh hồn của một người chết, tượng trưng bằng một thiếu niên
+            trần truồng.
+          </div>
+          <div class="content__s">SIENNE, THÀNH PHỐ THANH BÌNH</div>
+          <div class="content__p">
+            Những tác phẩm gothic quốc tế khác có vẻ như không bị ảnh hưởng
+            khủng khiếp của trận dịch đen. Thật vậy, trong thời kỳ náo động đó,
+            người ta thấy ở nhiều họa sĩ một sự thanh thản tâm hồn vô cùng đau
+            xót. Người ta cũng có thể thấy ở họ một cái gì thần tiên, như họa sĩ
+            Stefano di Giovani tức Sassetta (1392-1450). Bức tranh trên gỗ: Gặp
+            gỡ giữa thánh Antoine và thánh Paul của ông (hình 6) cho thấy ảnh
+            hưởng của sách trang trí Pháp. Hai nhà ẩn tu gặp nhau trong một khu
+            rừng, ôm nhau một cách tự nhiên như hai đứa trẻ khẳng định sức mạnh
+            của tình yêu.
+          </div>
+          <div class="content__img">
+            <img src="../../../assets/images/pic_06.jpg" alt="" />
+            <div class="content__img--caption">
+              Stefano Sassetta, Cuộc gặp gỡ của Saint Anthony and Saint Paul
+              (The meeting of Saint Anthony and Saint Paul), khoảng năm 1430 -
+              1435, 30,5 x 42,5 cm
+            </div>
+          </div>
+          <div class="content__p">
+            Bức tranh là một phần của một loạt tranh nhan đề Cuộc đời của Thánh
+            Antoine, một trong những nhà sáng lập cuộc sống trong tu viện. Ở
+            phía trên, chúng ta thấy thánh Antoine đã 90 tuổi bỏ cuộc sống ẩn tu
+            sau môt thiên cảm, đi tìm thăm thánh Paul ẩn tu, lúc đó đã 113 tuổi.
+            Trên đường đi, người gặp một nhân mã, tượng trưng đa thần giáo.
+            Thánh Antoine ban phép lành và cải hóa y theo cơ đốc giáo.
+          </div>
+          <div class="content__p">
+            Tiền cảnh cho thấy kết cục của câu chuyện, hai vị thánh ôm nhau, hai
+            cây gậy nằm dưới đất, cây gậy của thánh Antoine luôn luôn có dạng
+            một cây nạng.
+          </div>
+          <div class="content__p">
+            Trong lúc sanh tiền của Sassetta, Sienne sống trong thanh bình dưới
+            chính thể cộng hòa (trừ một giai đoạn ngắn vào năm 1430), điều đó
+            cho phép thành phố thắt chặt những quan hệ có lợi với đối thủ của
+            mình là thành phố Florence lớn hơn và hùng mạnh hơn. Sasetta là họa
+            sĩ Sienne quan trọng nhất của thế kỷ 15. Nghệ thuật của ông được
+            nuôi dưỡng bằng truyền thống gothic ở Sienne, may thay cũng chịu ảnh
+            hưởng của những nghệ sĩ cách tân tài năng của Florence thời đó, như
+            Masaccio và nhà điêu khắc Donatello.
+          </div>
         </div>
       </main>
+      <footer>
+        <button id="themeButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-palette-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+            />
+          </svg>
+        </button>
+        <button id="fontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-file-earmark-font-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5z"
+            />
+          </svg>
+        </button>
+        <button id="highlightButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-highlighter"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z"
+            />
+          </svg>
+        </button>
+        <button id="increaseFontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-plus-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+            />
+          </svg>
+        </button>
+        <button id="decreaseFontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-dash-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"
+            />
+          </svg>
+        </button>
+        <button id="aspecratioButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-aspect-ratio"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"
+            />
+            <path
+              d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"
+            />
+          </svg>
+        </button>
+      </footer>
     </section>
     <script src="../../../assets/scripts/bookMenu.js"></script>
+    <script src="../../../assets/scripts/read.js"></script>
   </body>
 </html>

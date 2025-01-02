@@ -9,144 +9,579 @@
   </head>
   <body>
     <section class="sidebar" id="sidebar">
-        <button class="close__button" id="closeMenu">
-          <div class="close__button--icon">
+      <button class="close__button" id="closeMenu">
+        <div class="close__button--icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </div>
+      </button>
+      <h1>MỤC LỤC</h1>
+      <ul>
+        <li><a href="../banner/foreword.html">Lời mở đầu</a></li>
+        <li>
+          <a href="../banner/chapter-1.html">
+            <p>Nền hội hoạ trước Giotto</p>
+            <p>I</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.1.html">
+            <p>Những bức hoạ đầu tiên</p>
+            <p>I.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.2.html">
+            <p>Thời Thượng cổ</p>
+            <p>I.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-1.3.html">
+            <p>Nghệ thuật cổ Cơ Đốc và sơ Trung cổ</p>
+            <p>I.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.html">
+            <p>Nền hội hoạ Gothic</p>
+            <p>II</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.1.html">
+            <p>Nghệ thuật Gothic nguyên thuỷ</p>
+            <p>II.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.2.html">
+            <p>Phong cách Gothic quốc tế</p>
+            <p>II.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.3.html">
+            <p>Những cuộc cách tân ở Bắc Âu</p>
+            <p>II.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-2.4.html">
+            <p>Hội hoạ cuối thời kì Gothic</p>
+            <p>II.4</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.html">
+            <p>Thời kì phục hưng ở Ý</p>
+            <p>III</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.1.html">
+            <p>Thời kì phục hưng sơ khai</p>
+            <p>III.1</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.2.html">
+            <p>Thời kì phục hưng ở Venice</p>
+            <p>III.2</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.3.html">
+            <p>Cao trào phục hưng</p>
+            <p>III.3</p>
+          </a>
+        </li>
+        <li>
+          <a href="../banner/chapter-3.4.html">
+            <p>Thời kì kiểu cách ở Ý</p>
+            <p>III.4</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="mark" id="mark">
+      <button class="close__button" id="closeBookmark">
+        <div class="close__button--icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </div>
+      </button>
+      <h1>DANH SÁCH ĐÁNH DẤU</h1>
+      <ul>
+        <li>
+          <a href="#">
+            <p>Đánh dấu 1</p>
+            <button class="remove__button--icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-plus-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                />
+              </svg>
+            </button>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="content">
+      <header class="content__header">
+        <div class="header__menu">
+          <button id="openMenu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+          <button href="#" id="openBookmark" class="text-yellow" data-id="1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
               height="30"
               fill="currentColor"
-              class="bi bi-plus-lg"
+              class="bi bi-bookmark-fill"
               viewBox="0 0 16 16"
             >
               <path
-                fill-rule="evenodd"
-                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+                d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2"
               />
             </svg>
-          </div>
-        </button>
-        <h1>MỤC LỤC</h1>
-        <ul>
-          <li><a href="./foreword.html">Lời mở đầu</a></li>
-          <li>
-            <a href="./chapter-1.html">
-              <p>Nền hội hoạ trước Giotto</p>
-              <p>I</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.1.html">
-              <p>Những bức hoạ đầu tiên</p>
-              <p>I.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.2.html">
-              <p>Thời Thượng cổ</p>
-              <p>I.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-1.3.html">
-              <p>Nghệ thuật cổ Cơ Đốc và sơ Trung cổ</p>
-              <p>I.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.html">
-              <p>Nền hội hoạ Gothic</p>
-              <p>II</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.1.html">
-              <p>Nghệ thuật Gothic nguyên thuỷ</p>
-              <p>II.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.2.html">
-              <p>Phong cách Gothic quốc tế</p>
-              <p>II.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.3.html">
-              <p>Những cuộc cách tân ở Bắc Âu</p>
-              <p>II.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-2.4.html">
-              <p>Hội hoạ cuối thời kì Gothic</p>
-              <p>II.4</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.html">
-              <p>Thời kì phục hưng ở Ý</p>
-              <p>III</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.1.html">
-              <p>Thời kì phục hưng sơ khai</p>
-              <p>III.1</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.2.html">
-              <p>Thời kì phục hưng ở Venice</p>
-              <p>III.2</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.3.html">
-              <p>Cao trào phục hưng</p>
-              <p>III.3</p>
-            </a>
-          </li>
-          <li>
-            <a href="./chapter-3.4.html">
-              <p>Thời kì kiểu cách ở Ý</p>
-              <p>III.4</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-    <section class="content">
-      <header class="content__header">
-        <button id="openMenu">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </button>
-        <div class="header__title">
-            I - Nền hội hoạ trước Giotto
+          </button>
+          <a href="../../home.html" id="homeButton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 50 50"
+              fill="currentColor"
+            >
+              <path
+                d="M 24.962891 1.0546875 A 1.0001 1.0001 0 0 0 24.384766 1.2636719 L 1.3847656 19.210938 A 1.0005659 1.0005659 0 0 0 2.6152344 20.789062 L 4 19.708984 L 4 46 A 1.0001 1.0001 0 0 0 5 47 L 18.832031 47 A 1.0001 1.0001 0 0 0 19.158203 47 L 30.832031 47 A 1.0001 1.0001 0 0 0 31.158203 47 L 45 47 A 1.0001 1.0001 0 0 0 46 46 L 46 19.708984 L 47.384766 20.789062 A 1.0005657 1.0005657 0 1 0 48.615234 19.210938 L 41 13.269531 L 41 6 L 35 6 L 35 8.5859375 L 25.615234 1.2636719 A 1.0001 1.0001 0 0 0 24.962891 1.0546875 z M 25 3.3222656 L 44 18.148438 L 44 45 L 32 45 L 32 26 L 18 26 L 18 45 L 6 45 L 6 18.148438 L 25 3.3222656 z M 37 8 L 39 8 L 39 11.708984 L 37 10.146484 L 37 8 z M 20 28 L 30 28 L 30 45 L 20 45 L 20 28 z"
+              ></path>
+            </svg>
+          </a>
         </div>
-        <div class="header__language">
-            <a href="#" class="header__language--link">VIE</a>
-            /
-            <a href="#" class="header__language--link">ENG</a>
-          </div>
+
+        <div class="header__title">THỜI KỲ KIỂU CÁCH Ở Ý</div>
+        <div class="header__language">Soeur Wendy Beckett</div>
       </header>
       <main class="main">
-        <div class="banner">
-          <video controls autoplay muted loop>
-            <source src="../../../assets/videos/7.mp4" type="video/mp4">
-          </video>
-          <audio controls autoplay loop>
-            <source src="../../../assets/audios/3.4.mp3" type="audio/mp3">
-          </audio>
-        </div>
-        <div class="banner__content">
-          <h1 class="banner__title">THỜI KỲ KIỂU CÁCH Ở Ý</h1>
-          <div class="banner__img"><img src="../../../assets/videos/waveform-audio-unscreen.gif" alt=""></div>
-          <a class="banner__link" href="#">Đọc</a>
+        <div class="content__container">
+          <h1 class="content__title">THỜI KỲ KIỂU CÁCH Ở Ý</h1>
+          <div class="content__rp">
+            Cũng như từ "Phục hưng", từ "Kiểu cách" được áp dụng cho một phong
+            trào rộng lớn thành hình từ nhiều trào lưu và theo một quan điểm
+            nghệ thuật nhất định, hơn là cho một phong cách riêng biệt. Thời kỳ
+            kiểu cách sinh ra từ thời kỳ Phục hưng, mà sự suy đổi đã bắt đầu ở
+            thế kỷ thứ 16, và kéo dài khoảng 60 năm (từ 1520-1580). Thời kỳ kiểu
+            cách chịu ảnh hưởng những tác phẩm của các họa sĩ lớn của phong trào
+            Phục hưng như Michel Ange và Raphael.
+          </div>
+          <div class="content__p">
+            Từ "kiểu cách" là do từ Ý "maniera" mà ở thế kỷ 16 có nghĩa là kiểu,
+            lối, theo nghĩa thanh lịch. Do nghĩa thanh lịch ngấm ngầm đó mà có
+            sự mơ hồ và trở thành nguyên nhân nhiều nhẩm lần và tranh luận ở các
+            nhà viết sử nghệ thuật. Tuy vậy, theo nghĩa này, từ này cũng là yếu
+            tố quan trọng của tinh thần kiểu cách, mặc dầu các họa sĩ theo phong
+            cách kiểu cách cũng thường rất "cầu kỳ" theo nghĩa thật sự của từ.
+            Đó là một thứ nghệ thuật cung đình vô cùng tinh tế và luôn luôn tìm
+            kiếm cái lạ, thường quá đáng, với sự kết hợp những màu sống động và
+            sắc bén, bố cục phức tạp và phóng túng, sự táo bạo về mặt kỹ thuật
+            với đường nét ẻo lả.
+          </div>
+          <div class="content__s">THỜI KỲ KIỂU CÁCH ĐẦU TIÊN Ở FLORENCE</div>
+          <div class="content__p">
+            Thời Phục hưng cổ điển đặc biệt có nhiều họa sĩ "thường thường bậc
+            trung", những nghệ sĩ mà tác phẩm của họ thường chuyển dần sang
+            phong thái kiểu cách một cách khó nhận biết, khi họ cố "cường diệu"
+            bút pháp của mình để kích thích sự chú ý của người xem. Nếu phương
+            pháp đó có vẻ kiểu cách và gò bó thì dù sao các họa sĩ kiểu cách có
+            tài cũng chứng tỏ khả năng gây xúc động thường là rất thuyết phục.
+          </div>
+          <div class="content__p">
+            Giovanni Battista di Jacopo tức Le Rosso (1494-1540) di cư qua Pháp
+            và ở đây ông được biết dưới cái tên Rosso Fiorentino ("Người
+            Florence"). Đó là một người đau thần kinh nặng và nghệ thuật của ông
+            trình bày gần như trơ trên cái bóng của chủ đề mà ông đã chọn. Ông
+            sử dụng sự tương phản táo bạo của những màu chỏi nhau và hình diện
+            thì thường choán hết khung tranh. Thí dụ, bức Moise và các con gái
+            của Jethro là một mớ chằng chịt quái dị của những tấm thân trần
+            truồng, lực lưỡng đang chuyển động, một cô gái áo để hở ngực, kinh
+            hoàng, đứng giữa cuộc giết chóc. Le Rosso tả bạo lực hơn là một cảnh
+            đặc thù, và ông làm điều đó một cách chính xác và tài tình.
+          </div>
+          <div class="content__p">
+            Jacopo Carucci tức Le Pontormo (1494-1556) cũng là một người bị ray
+            rứt và nhạy cảm. Có khi ông xa lánh mọi người để sống ẩn dật. Cũng
+            như Le Rosso, nghệ thuật của ông cũng kích thích, lạ lùng và chuyển
+            động của nó làm chúng ta sửng sốt.
+          </div>
+          <div class="content__p">
+            Tác phẩm chính của Pontormo là bức Đem Chúa từ thánh giá xuống, thực
+            hiện cho bàn thờ ở nhà thờ Santa Felicità ở Florence. Anh sáng mạnh,
+            hư ảo, thấm dẫm các hình diện rực sáng một cách lạ thường phản ánh
+            sự xúc động cao của tác phẩm - đây là chủ ý của tác giả để bù trừ
+            một phần bóng tối trong nhà thờ. Tác phẩm toát ra ấn tượng đau khổ
+            và bị hại, càng làm cho sự tương phản giữa cái đẹp cổ điển của những
+            thân thể thon dài và lực lưỡng, những nét mặt lo âu và náo loạn,
+            thêm xúc động. Chân dung của Đức ông Casa của Pontormo được nhận xét
+            một cách thông minh, phản ánh vẻ quý phái của gương mặt dài bằng hàm
+            râu hoe. Đóng khung trong các bức tường của gian phòng, nhân vật có
+            vẻ cứng nhắc và phòng thủ, thách thức người xem với vẻ ngạo nghề.
+          </div>
+          <div class="content__p">
+            Bức Chân dung của một thanh niên chủ yếu chỉ vẽ một màu, là một thí
+            dụ hay về cách thức dùng màu tinh tế của Andrea del Sarto. Vài người
+            đương thời xếp ông vào hàng bốn họa sĩ giỏi nhất thời đó.
+          </div>
+          <div class="content__s">SỰ HOÀN HẢO LẠNH LÙNG CỦA BRONZINO</div>
+          <div class="content__p">
+            Pontormo là thầy dạy và gần như là cha nuôi của Agnolo di Cosimo
+            Torri tức Bronzino (1503-1572), một họa sĩ xuất sắc khác thường.
+            Pontormo nhốt mình trong tháp ngà, không để cho Bronzino xâm nhập
+            vào sự cô đơn của mình, có lẽ vì ông dò thấy trong tác phẩm của
+            người được mình che chở có những trào lưu tư tưởng ngấm ngầm làm náo
+            loạn đức tin tôn giáo gần như cuồng tín của mình. Ta thấy ở Bronzino
+            một sự hoàn hảo lạnh lùng có thể tỏ ra dễ sợ.
+          </div>
+          <div class="content__p">
+            Tuy nhiên, ông được lòng triều đình và những bức chân dung lạnh
+            lùng, vô cảm của ông rất được người đương thời ngưỡng mộ. Ông trở
+            thành họa sĩ hàng đầu của trường phái kiểu cách Florence. Ông vẽ
+            Éléonore de Tolède ăn mặc sang trọng đeo đầy ngọc trai và vẻ mặt
+            kiêu ngạo. Phúng dụ của Bronzino được biết dưới tên Vénus và Cupidon
+            giữa Thời gian và Điên loạn do đại công tước Cosme I dặt vẽ cho vua
+            François I của Pháp. Vasari đã mô tả bức tranh như là một phúng dụ
+            nhiều mặt về khoái lạc nhục dục và những mối nguy hiểm tiềm tàng và
+            chưa được xác định khác. Một số nhà phê bình coi đây là sự viện dẫn
+            loạn luân, mặc nhiên là bại hoại. Nhưng, năm 1986, một y sĩ dũ đưa
+            ra cách giải thích rất dễ chấp nhận bằng cách viện dẫn bệnh giang
+            mai. Gương mặt méo mó ở bên trái là sự minh họa công phu về những
+            triệu chứng lâm sàng của bệnh này và của một hay hai tác dụng phụ
+            của những phương pháp trị liệu được dùng ở thế kỷ 16. Theo lý thuyết
+            này, phúng dụ muốn nói rằng tình yêu bất chính là do sự lừa dối chi
+            phối, nó như một tảng mật ong mời mọc. Đứa trẻ tượng trưng sự ngây
+            thơ bị lừa đối đâm đầu vào khoái lạc. Kết quả của cuộc yêu dương ngu
+            muội là bệnh giang mai - Kéo tấm màn che hậu cảnh, thời gian cho
+            thấy sự thật mà Vénus và Cupidon không biết.
+          </div>
+          <div class="content__s">GIÁ TRỊ TINH THẦN CỦA LE CORRÈGE</div>
+          <div class="content__p">
+            Antonio Allegri tức Le Corrège (khoảng 1489-1534), sống ở Parme, là
+            một danh sư của thời kỳ Phục hưng, có tinh thần kiểu cách, say mê
+            thể hiện thân thể con người, nhưng vẫn ý thức yếu tố ánh sáng và ý
+            nghĩa tinh thần của nó. Le Corrège là một môn đồ theo Mantegna,
+            nhưng ông duy trì sự thể hiện mạnh mẽ trong những giới hạn hợp lý.
+          </div>
+          <div class="content__p">
+            Sự phát triển cá tính nghệ thuật của Le Corrège đã tới một khúc
+            ngoặt quyết định sau một thời gian ở Roma, nơi ông có dịp xem tác
+            phẩm của Michel Ange và Raphaél. Chẳng bao lâu sau ông trở thành họa
+            sĩ vi đại nhất ở Parme. Bức Jupiter và Antiope biểu hiện sự buông
+            thả xác thịt hoàn toàn, nhưng cũng có sự ngây thơ, như thể cảnh đó
+            diễn ra trước khi Adam và Eva bị đuổi khỏi thiên đường. Mỗi thân thể
+            phản chiếu ánh trăng khác nhau, và mỗi phần thân thể uốn éo một cách
+            tự nhiên và nhẹ nhàng biểu lộ sự vững lòng thanh thản.
+          </div>
+          <div class="content__p">
+            Ta thấy lại cái da thịt mềm mại đó trong những bức tranh về tôn
+            giáo, như Đám cưới huyền bí của thánh Catherine. Theo truyền thuyết,
+            Catherine nằm mộng thấy Chúa Hài Đồng ban cho cô một chiếc nhẫn đính
+            hôn. Ngày nay người ta coi truyền thuyết này là không có căn cứ tuy
+            rằng nó vẫn giữ được ý nghĩa của sự thánh hóa, nhưng trên hết, nó
+            tượng trưng lời nguyền giữ trinh bạch, một thanh niên được cho là
+            thánh Sébastien đứng sau nàng, hình ảnh của hôn nhân thể xác mà nàng
+            từ khước.
+          </div>
+          <div class="content__p">
+            Với tư cách là người chuẩn bị cho phong cách kiểu cách, Le Corrège
+            còn quan trọng hơn tự mình là một họa sĩ kiểu cách. Sự đóng góp của
+            ông cho phong cách kiểu cách và trường phái dị điển được nhận thấy
+            trong những bích họa đánh lừa mắt vẽ trên vòm các nhà thờ lớn ở
+            Parme.
+          </div>
+          <div class="content__p">
+            Chúng ta không có một bản sao nào của các bích họa đó và ta phải tới
+            nhà thờ lớn ở Parme và ngước mắt lên chiêm ngưỡng bức Đức Mẹ quy
+            thiên sáng chói, hay tới nhà thờ San Giovanni Evangelista để chóa
+            mắt thán phục trước bức Thiên cảm của thánh Jean Evangeliste ở
+            Patmos. Chỉ có sự kinh nghiệm như vậy mới cho phép chúng ta đánh giá
+            đầy đủ nghệ thuật thu ngắn phi thường và ấn tượng nổi bật của tính
+            hiện đại, tính cách này sẽ đạt tới cao điểm trong kỹ thuật thần kỳ
+            của các họa sĩ kiểu cách.
+          </div>
+          <div class="content__s">LE PARMESAN, HỌA SĨ CỦA CÁI THANH TAO</div>
+          <div class="content__p">
+            Francesco Mazzola tức là Le Parmesan (1503-1540) là một họa sĩ hết
+            sức tinh tế, biết biến mọi thực tại thành cái thanh tao thuần túy.
+            Đức Mẹ cổ dài là tác phẩm tiêu biểu nhất cho tài năng của ông. Đức
+            Mẹ Marie, cổ dài như cổ thiên nga, ngồi giữa màn trướng và phế tích
+            kỳ lạ, và sự căng thẳng thanh tao của các đường không chỉ được áp
+            dụng cho người của Bà mà còn cho cả Chúa Hài Đồng nằm chênh vênh vô
+            tư lự trên gối mẹ. Những quy luật bình thường của trọng lực không áp
+            dụng cho thế giới của ông. Một thiên thần với đôi chân dài, tuyệt
+            đẹp, đứng trước các thiên thần khác cũng đẹp mê hồn. Mỗi yếu tố, như
+            chiếc trụ đền ở cảnh nền, đều có chuyển động lên, như để kéo chúng
+            ta lên trời.
+          </div>
+          <div class="content__s">DOSSO DOSSI Ở FERRARE</div>
+          <div class="content__p">
+            Giovanni di Luteri tức Dosso Dossi (khoảng 1490-1542) cũng bị ánh
+            sáng thần tiên quyến rũ. Ông là họa sĩ của triều đình Lucrèce
+            Borgia, và từ lâu người ta tự hỏi phải chăng bà là người gây cảm
+            hứng cho họa sĩ vẽ bức Circé. nữ pháp sư. Bức tranh đẹp mê hồn, theo
+            mọi nghĩa của từ này, nhất là do cách thể hiện thân hình của Circé.
+            Thật vậy, chân trái của nàng được che kín, nhưng, thoạt nhìn qua,
+            người ta có cảm tưởng nàng không có chân trái, như thể nàng từ một
+            thế giới khác bước vào thế giới chúng ta. Những người đàn ông bị
+            biến thành thú vật, trông vừa đáng thương vừa có vẻ buồn cười, với
+            nét độc ác thường thấy ở dòng họ Borgia. Tuy nhiên, nét mặt của
+            Circé thì nghiêm chỉnh và thể hiện trội hơn hết có lẽ là nỗi buồn và
+            sự thèm muốn.
+          </div>
+          <div class="content__s">LOTTO Ở VENISE</div>
+          <div class="content__p">
+            Không khí đó, ta cũng thấy ở Lorenzo Lotto, một họa sĩ độc đáo, biết
+            kết hợp nét buồn rầu với sự hiếu kỳ vô tư về thân phận con người.
+            Hình ảnh của ông vừa khêu gợi vừa buồn buồn, nhuốm màu sắc ảnh hưởng
+            của Giovanni Bellini vân còn ở Venise. Lotto được biết tới nhiều
+            nhất do tranh chân dung trong đó trực giác kỳ lạ, độc đáo của ông,
+            tài năng sáng tạo bí hiểm và khác thường của ông, mặc sức tung
+            hoành. Người ta cũng thấy những thứ đó ngay trong các tranh tôn giáo
+            của ông. Thánh Catherine nghiêng đầu, xinh đẹp, nhìn chúng ta một
+            cách đăm chiêu. Cái bánh xe gãy luôn luôn theo sát bên bà, được cái
+            áo choàng màu lục che khuất. Họa sĩ vẽ mũ miện với những hạt ngọc
+            trai như là đồ trang trí. Nếu nàng Catherine này đối với chúng ta
+            không có vẻ một nữ thánh thì tính chân thực của người phụ nữ lại
+            biểu hiện rõ ràng, tươi tắn.
+          </div>
+          <div class="content__s">BECCAFUMI Ở SIENNE:</div>
+          <div class="content__p">
+            Domenico de Pau tức Domenico Beccafunn (khoảng 1486-1551) là người
+            cuối cùng trong số những họa sĩ lớn Sienne thuộc thời kỳ Phục hưng
+            cổ điển, cũng như Dosso Dossi là họa sĩ lớn cuối cùng ở Ferrare. Ông
+            không phải là một họa sĩ dễ tinh, vi với những chỗ chuyên tiếp đột
+            ngột từ thông qua ánh sáng, những lành diện chán đời kỳ lạ và màu
+            sắc sinh động nhắc ta nhớ tới Rosso. Hinh dien cia Beccafumi cho ta
+            ấn tượng đột ngột, chưng hửng, trong một phối cảnh phức tạp và rát
+            đặc thù của tác giả. Bức Sự sa cơ của các thiên thần nổi loạn chằng
+            chịt các hình thế được soi sáng vừa đá, là cảnh tượng gây ảo giác
+            ghê rợn mà vẫn mang vẻ thanh tao của trường phái Sienne.
+          </div>
+          <div class="content__s">LE GRECO, NGƯỜI CÓ THIỆN CẢM CUỒNG NHIỆT</div>
+          <div class="content__p">
+            Họa sĩ kiểu cách lớn nhất là họa sĩ Tây Ban Nha Domenikos
+            Theotokopoulos biệt danh Le Greco (1541-1614) vì ông là người gốc
+            đảo Crète. Nguồn gốc nghệ thuật của ông rất khác nhau: Ông dã du làm
+            & Venise, Roma và Tây Ban Nha rồi ở luôn Tolède. Giáo lý cơ đốc Tây
+            Ban Nha có một ảnh hướng quan trọng đối với phương pháp hội họa của
+            ông, và nghệ thuật của ông tượng trưng sự pha trộn giữa say mê và dè
+            dặt, giữa nhiệt tình tôn giáo và chủ nghĩa tân-platon, chịu ảnh
+            hưởng tinh thần thần bí của phong trào chống cải cách tôn giáo.
+          </div>
+          <div class="content__p">
+            Những hình người kéo dài, luôn luôn kéo lên phía trên, màu sắc đậm
+            đà và độc đáo, sự chú trọng say mê của ông đổi với mẫu, sự hăng hái
+            và năng lực của ông, tất cả kết hợp để tạo nên một phong cách riêng
+            và khác thường. Ông biết cách hợp nhất tất cả ảnh hưởng, nhưng ông
+            in đậm dấu ấn đậm đà góc cạnh của mình lên tất cả cái gì ông sáng
+            tạo. Ông đưa thêm truyền thống Byzance vào di sản Venise, Florence
+            và Sienne, không nhất thiết là ở hình thờ mà ở tinh thần (mặc dầu
+            ông đã nghiên cứu tranh thánh tượng ở Crete). Le Greco luôn luôn vẽ
+            thánh tượng và chính cái nét dung trầm trọng đó làm cho những hình
+            thù vặn vẹo có một sự chân thực thiêng liêng.
+          </div>
+          <div class="content__p">
+            Bức Đức Mẹ và Chúa Hài Đồng với thánh Martino và thánh Agnes nâng
+            chúng ta lên khỏi thế giới thú vật được tượng trưng ở phía dưới bức
+            tranh bằng hình ảnh con sư tử có vẻ nghĩ ngợi của thánh Martin và
+            con cừu non của thánh Agnès. Nhánh cọ của Martine, biểu tượng của kẻ
+            tuần dạo, và những ngón tay thon dài của thánh Agnès tạo đà cho
+            chúng ta.
+          </div>
+          <div class="content__p">
+            Chúng ta bị lôi kéo lên cao mà không cưỡng lại được, qua khỏi những
+            đôi cánh run rẩy của các tiểu thiên thần và những nếp áo của Đức Mẹ,
+            đóng khung trong những lớp mây mang vé đặc thù của Greco. Chúng ta
+            cứ đi lên mãi, nhưng hành động đó không do ý chí của chúng ta mà
+            được hướng dẫn, điều khiển bởi Greco, bởi vì những hình ảnh đang rầu
+            nguyện ở góc bức tranh giữ chúng ta trên đường đi.
+          </div>
+          <div class="content__s">NHỮNG CÂU HỎI KHÔNG ĐƯỢC TRẢ LỜI</div>
+          <div class="content__p">
+            Một nghệ thuật mạnh mẽ như vậy, có sức sống như vậy, vẫn có thể có
+            vẻ thiếu tế nhị, và có lẽ chúng ta không muốn liên lụy (với sự thiếu
+            tế nhị đó). Nhưng, sự kiềm chế đó chủ yếu là thuộc về El Greco, một
+            người có tài vận dụng theo ý nghĩa tốt đẹp nhất của từ này. Cho dù
+            chúng ta thật sự không hiểu một bức tranh như bức Laocoon chẳng hạn,
+            chúng ta cũng biết rằng có một cái gì đó lớn lao xảy ra, nhưng tính
+            cách nhỏ nhoi vô nghĩa của chúng ta ngăn chúng ta tham dự. Sự dựa
+            vào viên tư tế thành Troie và các con trai của ông đã đủ rõ ràng.
+            Nhưng, những người đàn bà khỏa thân đó là ai, một người dường như có
+            hai đầu? Nếu cái đầu thứ hai chỉ là dấu vết của một công việc dở
+            dang thì vẫn là chuyện lạ. Sau khi Le Greco mất, bức Laocoon được vẽ
+            lại, cái đầu thứ hai nhìn về phía chúng ta biến mất và một tâm khăn
+            kín đáo phủ lên hông hai hình người khỏa thân nhìn từ trước mặt. Về
+            sau, bức tranh mới được phục hồi như trạng thái hiện nay.
+          </div>
+          <div class="content__p">
+            Hai người có vẻ đang nhìn cảnh tượng một cách dửng dưng vẫn là một
+            điều bí mật. Họ có thể là Apollon và Athéna từ trên trời xuống chứng
+            kiến Laocoon bị trừng phạt. Ở cảnh thứ hai, con ngựa đang tế về
+            thành phố dưới bầu trời đe dọa. Những thành phố đó không phải là
+            thành Troie cổ đại, mà là Tolède ở Tây Ban Nha. Họa sĩ đã vẽ bức
+            tranh trong thời kỳ chống Cải cách tôn giáo ở Tây Ban Nha, và phúng
+            dụ của ông về con người nổi loạn và những thần linh đòi trả thù có ý
+            nghĩa không thể nhầm lẫn trong bối cảnh của Tây Ban Nha lúc đó, cho
+            chúng ta thấy tính chính thống trong niềm tin tôn giáo của ông.
+          </div>
+          <div class="content__p">
+            Chúng ta cảm thấy rằng bức tranh là một phúng dụ hơn là một câu
+            chuyện được kể lại, rằng chúng ta nhìn thấy cái Ác và mưu toan hành
+            động chống lại con người vô phương tự vệ.
+          </div>
+          <div class="content__p">
+            Chúng ta càng hiểu bức tranh ít hơn thì nó càng hấp dẫn chúng ta. Ở
+            Le Greco, ý nghĩa ẩn tàng quan trọng hơn hết, và ông thể hiện ý
+            nghĩa đó bằng "kiểu cách" nhiều hơn là bằng "chất liệu", trong một
+            thứ ánh sáng hư áo, nó không xa lạ với chúng ta, bất chấp những cầu
+            hỏi không được trả lời. Trong số những họa sĩ theo phong cách kiểu
+            cách có tài, chỉ có Le Greco nâng kiểu cách tới tầm cao đó, với sự
+            mạch lạc, để biểu thị tính chất tinh thần tới sự sáng suốt nội tâm
+            theo ngôn ngữ của ông.
+          </div>
         </div>
       </main>
+      <footer>
+        <button id="themeButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-palette-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+            />
+          </svg>
+        </button>
+        <button id="fontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-file-earmark-font-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M5.057 6h5.886L11 8h-.5c-.18-1.096-.356-1.192-1.694-1.235l-.298-.01v5.09c0 .47.1.582.903.655v.5H6.59v-.5c.799-.073.898-.184.898-.654V6.755l-.293.01C5.856 6.808 5.68 6.905 5.5 8H5z"
+            />
+          </svg>
+        </button>
+        <button id="highlightButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-highlighter"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z"
+            />
+          </svg>
+        </button>
+        <button id="increaseFontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-plus-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"
+            />
+          </svg>
+        </button>
+        <button id="decreaseFontButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-dash-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"
+            />
+          </svg>
+        </button>
+        <button id="aspecratioButton" class="px-[3rem]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-aspect-ratio"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"
+            />
+            <path
+              d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"
+            />
+          </svg>
+        </button>
+      </footer>
     </section>
     <script src="../../../assets/scripts/bookMenu.js"></script>
+    <script src="../../../assets/scripts/read.js"></script>
   </body>
 </html>
