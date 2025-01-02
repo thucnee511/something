@@ -358,4 +358,21 @@
       }
     }
   }
+  .sub {
+    height: fit-content;
+    top:0;
+    bottom: auto;
+    .sub__button{
+      position: fixed;
+      top: .5rem;
+      left: 0;
+      z-index: 1000;
+      transform: scale(0.5);
+    }
+    .sub__section {
+      overflow-x: auto;
+      overflow-y: hidden;
+      flex-direction: column;
+    }
+  }
 }
