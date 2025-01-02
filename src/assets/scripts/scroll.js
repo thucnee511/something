@@ -5,7 +5,7 @@ document.addEventListener("wheel", function (event) {
       if (!isOpen) {
         document.querySelector(".main").scrollLeft += event.deltaY;
       } else {
-        document.getElementById("sub").scrollLeft += event.deltaY;
+        document.querySelector(".sub__section").scrollLeft += event.deltaY;
       }
     }
   } else {
@@ -13,7 +13,7 @@ document.addEventListener("wheel", function (event) {
       if (!isOpen) {
         document.querySelector(".main").scrollTop += event.deltaY;
       } else {
-        document.getElementById("sub").scrollTop += event.deltaY;
+        document.querySelector(".sub__section").scrollTop += event.deltaY;
       }
     }
   }
