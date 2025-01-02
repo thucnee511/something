@@ -128,6 +128,14 @@
                 width: 100%;
                 height: 100%;
             }
+
+            
+                
+            video{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
 
         .banner__content{
@@ -146,6 +154,17 @@
                 font-size: 5rem;
                 font-family: "BHN TAN MEMORIES", sans-serif;
                 color: #d8cfc0;
+            }
+
+            .banner__img{
+                height: 160px;
+                width: auto;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
 
             .banner__link{
