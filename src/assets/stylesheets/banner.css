@@ -232,8 +232,24 @@
 
       .content__title {
         text-align: center;
+        padding-top: 2rem;
         font-size: 3rem;
         font-family: "Monsterrat", sans-serif;
+      }
+
+      .content__button{
+        display: block;
+        cursor: pointer;
+        margin-top: 2rem;
+        padding: 1rem;
+        font-size: 2rem;
+        font-family: "Mulish", sans-serif;
+        color: #d8cfc0;
+        background-color: #7c6f22;
+        border: none;
+        border-radius: 0.5rem;
+        width: fit-content;
+        text-decoration: none;
       }
 
       .content__paragraph,

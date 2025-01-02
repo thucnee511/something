@@ -10,7 +10,7 @@ highlightButton.addEventListener("click", () => {
   const range = selection.getRangeAt(0);
   const span = document.createElement("span");
   span.style.backgroundColor = "#7C6F22";
-  range.surroundContents(span);  
+  range.surroundContents(span);
 });
 
 const dark = {
@@ -246,3 +246,9 @@ function closeFullscreen() {
     document.msExitFullscreen();
   }
 }
+
+const scrollToTopButton = document.getElementById("scrollToTopButton");
+const scrollToBottomButton = document.getElementById("scrollToBottomButton");
+scrollToBottomButton.addEventListener("click", () => {
+  document.querySelector(".main").scrollTop = 0;
+});
