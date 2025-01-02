@@ -9,6 +9,7 @@
   align-items: center;
   width: 100vw;
   height: fit-content;
+  border-bottom: dotted 2px #fafafa;
 
   .header__logo {
     display: block;
@@ -45,7 +46,7 @@
   justify-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #803407;
+  background-color: #641706;
   flex-wrap: nowrap;
   overflow-x: hidden;
   overflow-y: auto;
@@ -57,8 +58,8 @@
     align-items: center;
     height: 100%;
     min-width: 100%;
-    padding-top: 14rem;
-    padding-bottom: 8rem;
+    padding-top: 10rem;
+    padding-bottom: 8.6rem;
 
     .main__section--image {
       display: block;
@@ -144,6 +145,7 @@
   align-items: center;
   padding: 1.5rem;
   padding-bottom: 2.5rem;
+  border-top: dotted 2px #fafafa;
 
   .footer__button {
     display: flex;
@@ -155,6 +157,8 @@
     border-radius: 2.5rem;
     color: #fafafa;
     text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
 
     .fotter__button--text {
       display: block;
